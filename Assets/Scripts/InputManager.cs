@@ -41,8 +41,10 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        verticalMove = Input.GetAxis("Vertical");
-        
-        horizontalMove = Input.GetAxis("Horizontal");
+        if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        {
+            verticalMove = Input.GetAxis("Vertical");
+            horizontalMove = Input.GetAxis("Horizontal");   
+        }
     }
 }
