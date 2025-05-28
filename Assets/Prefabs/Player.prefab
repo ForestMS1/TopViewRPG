@@ -2208,6 +2208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d07d72df9035d44aa77232264fef7cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joyStick: {fileID: 0}
+  moveSpeed: 3
 --- !u!1 &6363061118550794774
 GameObject:
   m_ObjectHideFlags: 0

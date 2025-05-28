@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
@@ -41,10 +42,10 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
-        {
-            verticalMove = Input.GetAxis("Vertical");
-            horizontalMove = Input.GetAxis("Horizontal");   
-        }
+        // if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        // {
+        //     verticalMove = Input.GetAxis("Vertical");
+        //     horizontalMove = Input.GetAxis("Horizontal");   
+        // }
     }
 }

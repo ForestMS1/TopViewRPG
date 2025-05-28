@@ -2,28 +2,44 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    private InputManager inputManager;
-    private Rigidbody rigidbody;
-    private float moveSpeed;
+    [SerializeField]
+    private VariableJoystick joyStick;
+    [SerializeField]
+    private float moveSpeed = 3.0f;
+    
+    private Rigidbody rigid;
     private float verticalMove;
     private float horizontalMove;
+    private Vector3 moveVec;
 
     void Start()
     {
-        inputManager = FindObjectOfType<InputManager>();
-        rigidbody = GetComponent<Rigidbody>();
+        rigid = GetComponent<Rigidbody>();
     }
     // Update is called once per frame
     void Update()
     {
-        verticalMove = inputManager.VerticalMove;
-        horizontalMove = inputManager.HorizontalMove;
     }
 
     void FixedUpdate()
     {
-        rigidbody.MovePosition(rigidbody.position + rigidbody.linearVelocity * verticalMove * Time.fixedDeltaTime);
-        rigidbody.MovePosition(rigidbody.position + rigidbody.linearVelocity * horizontalMove * Time.fixedDeltaTime);
+        //Input Value
+        verticalMove = joyStick.Vertical;
+        horizontalMove = joyStick.Horizontal;
+        moveVec = new Vector3(verticalMove, 0, horizontalMove) * moveSpeed * Time.deltaTime;
+        
+        if (moveVec.magnitude == 0)
+        {
+            return;
+        }
+        
+        //Move
+        rigid.MovePosition(rigid.position + moveVec);
+        
+        //Rotate
+        Quaternion dirQuat = Quaternion.LookRotation(moveVec);
+        Quaternion moveQuat = Quaternion.Slerp(rigid.rotation, dirQuat, 0.3f);
+        rigid.MoveRotation(moveQuat);
     }
 
     
