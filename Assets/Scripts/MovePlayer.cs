@@ -26,7 +26,7 @@ public class MovePlayer : MonoBehaviour
         //Input Value
         verticalMove = joyStick.Vertical;
         horizontalMove = joyStick.Horizontal;
-        moveVec = new Vector3(verticalMove, 0, horizontalMove) * moveSpeed * Time.deltaTime;
+        moveVec = new Vector3(horizontalMove, 0, verticalMove);
         
         if (moveVec.magnitude == 0)
         {
@@ -34,12 +34,12 @@ public class MovePlayer : MonoBehaviour
         }
         
         //Move
-        rigid.MovePosition(rigid.position + moveVec);
+        rigid.MovePosition(rigid.position + moveVec * moveSpeed * Time.deltaTime);
         
         //Rotate
-        Quaternion dirQuat = Quaternion.LookRotation(moveVec);
-        Quaternion moveQuat = Quaternion.Slerp(rigid.rotation, dirQuat, 0.3f);
-        rigid.MoveRotation(moveQuat);
+         Quaternion dirQuat = Quaternion.LookRotation(moveVec);
+         Quaternion moveQuat = Quaternion.Slerp(rigid.rotation, dirQuat, 0.3f);
+         rigid.MoveRotation(moveQuat);
     }
 
     
