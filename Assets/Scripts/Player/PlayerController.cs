@@ -10,7 +10,10 @@ public class PlayerController : MonoBehaviour
     private PlayerFSM playerFSM;
     [SerializeField]
     private float attackRange = 1.5f;
-    
+    [SerializeField] 
+    private float attackCoolTime = 0.5f;
+
+    private float lastAttackTime = 0.0f;
     private Rigidbody rigid;
     private float verticalMove;
     private float horizontalMove;
@@ -67,6 +70,19 @@ public class PlayerController : MonoBehaviour
                     Debug.Log($"{hit.name} is hit!");
                 }
             }   
+        }
+    }
+
+    public bool CanAttack()
+    {
+        if (lastAttackTime + attackCoolTime <= Time.time)
+        {
+            lastAttackTime = Time.time;
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
     

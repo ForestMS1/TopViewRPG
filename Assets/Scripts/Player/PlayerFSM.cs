@@ -52,6 +52,7 @@ public class PlayerFSM : MonoBehaviour
         switch (newState)
         {
             case PlayerState.Attack:
+                if (!playerController.CanAttack()) break;
                 animator.SetAnimatorTrigger("Attack");
                 playerController.DoAttackHit();
                 break;
