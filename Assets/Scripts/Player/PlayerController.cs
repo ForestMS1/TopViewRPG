@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     private float moveSpeed = 5.0f;
     [SerializeField]
     private PlayerFSM playerFSM;
+    [SerializeField]
+    private float attackRange = 1.5f;
     
     private Rigidbody rigid;
     private float verticalMove;
@@ -26,6 +28,11 @@ public class PlayerController : MonoBehaviour
     {
         if (!playerFSM.IsControllable()) return;
         
+        Move();
+    }
+
+    void Move()
+    {
         //Input Value
         verticalMove = joyStick.Vertical;
         horizontalMove = joyStick.Horizontal;
@@ -47,6 +54,20 @@ public class PlayerController : MonoBehaviour
         Quaternion moveQuat = Quaternion.Slerp(rigid.rotation, dirQuat, 0.3f);
         rigid.MoveRotation(moveQuat);
     }
-    
+
+    public void DoAttackHit()
+    {
+        Collider[] hits = Physics.OverlapSphere(transform.position + transform.forward, attackRange);
+        if (hits.Length > 0)
+        {
+            foreach (var hit in hits)
+            {
+                if (hit.CompareTag("Enemy"))
+                {
+                    Debug.Log($"{hit.name} is hit!");
+                }
+            }   
+        }
+    }
     
 }

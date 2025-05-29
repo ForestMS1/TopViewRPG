@@ -13,9 +13,13 @@ public class PlayerFSM : MonoBehaviour
         Dead
     }
 
+    [SerializeField] 
+    private GameObject player;
+
     private GameObject _instance;
     private PlayerState currentState;
     private PlayerAnimator animator;
+    private PlayerController playerController;
 
     void Awake()
     {
@@ -31,8 +35,10 @@ public class PlayerFSM : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         currentState = PlayerState.Idle;
-        animator = GameObject.FindWithTag("Player").GetComponent<PlayerAnimator>();
+        animator = player.GetComponent<PlayerAnimator>();
+        playerController = player.GetComponent<PlayerController>();
     }
 
     public PlayerState GetState()
@@ -47,6 +53,7 @@ public class PlayerFSM : MonoBehaviour
         {
             case PlayerState.Attack:
                 animator.SetAnimatorTrigger("Attack");
+                playerController.DoAttackHit();
                 break;
             //case PlayerState.Dead:
         }
