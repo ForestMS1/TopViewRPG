@@ -55,6 +55,9 @@ public class PlayerFSM : MonoBehaviour
                 animator.SetAnimatorTrigger("Attack");
                 playerController.DoAttackHit();
                 break;
+            case PlayerState.Jump:
+                animator.SetAnimatorTrigger("Jump");
+                break;
             //case PlayerState.Dead:
         }
         currentState = newState;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Creature
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -12,5 +12,10 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void OnDamage(float damage)
+    {
+        base.OnDamage(damage);
     }
 }
