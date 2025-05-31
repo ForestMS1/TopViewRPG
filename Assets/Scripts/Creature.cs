@@ -15,7 +15,7 @@ public class Creature : MonoBehaviour, IDamageable
     [SerializeField] 
     protected float attackCoolTime = 0.5f;
     
-    private float lastAttackTime = 0.0f;
+    protected float lastAttackTime = 0.0f;
     public float HP { get => hp; set => hp = value; }
     public float MP { get => mp; set => mp = value; }
     public float ATK { get => atk; set => atk = value; }
