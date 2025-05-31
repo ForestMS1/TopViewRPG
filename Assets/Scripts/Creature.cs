@@ -27,7 +27,7 @@ public class Creature : MonoBehaviour, IDamageable
     public float EXP { get => exp; set => exp = value; }
     public bool IsDead { get => isDead; set => isDead = value; }
 
-    public void OnDamage(float damage)
+    public virtual void OnDamage(float damage)
     {
         if (IsDead) return;
         
@@ -55,6 +55,7 @@ public class Creature : MonoBehaviour, IDamageable
                 {
                     Debug.Log($"{hit.name} hit!");
                     hit.GetComponent<T>().OnDamage(ATK);
+                    lastAttackTime = Time.time;
                 }
             }
         }
@@ -65,7 +66,6 @@ public class Creature : MonoBehaviour, IDamageable
     {
         if (lastAttackTime + attackCoolTime <= Time.time)
         {
-            lastAttackTime = Time.time;
             return true;
         }
         else
