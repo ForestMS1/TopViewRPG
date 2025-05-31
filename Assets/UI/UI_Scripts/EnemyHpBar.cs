@@ -24,7 +24,7 @@ public class EnemyHpBar : MonoBehaviour
 
         hpSlider.value = Mathf.Lerp(hpSlider.value, enemy.HP, Time.deltaTime * 10f);
         // 항상 카메라를 향하게
-        //hpSlider.transform.LookAt(Camera.main.transform);
-        //hpSlider.transform.Rotate(0, 180, 0); // 뒤집기
+        hpSlider.transform.LookAt(Camera.main.transform);
+        hpSlider.transform.Rotate(0, 180, 0); // 뒤집기
     }
 }
