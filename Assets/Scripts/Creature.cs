@@ -38,13 +38,11 @@ public class Creature : MonoBehaviour, IDamageable
         else
         {
             HP = 0;
-            IsDead = true;
-            Debug.Log($"{gameObject.name} is dead!");
-            gameObject.SetActive(false);
+            Die();
         }
     }
 
-    public void DoAttackHit<T>() where T : Creature
+    public virtual void DoAttackHit<T>() where T : Creature
     {
         Collider[] hits = Physics.OverlapSphere(transform.position + transform.forward, attackRange);
 
@@ -74,5 +72,13 @@ public class Creature : MonoBehaviour, IDamageable
         {
             return false;
         }
+    }
+
+    public void Die()
+    {
+        //일단 오브젝트 비활성화로 Die
+        IsDead = true;
+        Debug.Log($"{gameObject.name} is dead!");
+        gameObject.SetActive(false);
     }
 }

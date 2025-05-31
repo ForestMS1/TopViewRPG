@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,6 +12,8 @@ public class Enemy : Creature
     private Transform target;
 
     private Rigidbody rb;
+
+    private SphereCollider attackCollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -25,6 +28,7 @@ public class Enemy : Creature
         
         agent = GetComponent<NavMeshAgent>();
         rb = GetComponent<Rigidbody>();
+        attackCollider = GetComponent<SphereCollider>();
     }
 
     void Update()
@@ -40,5 +44,11 @@ public class Enemy : Creature
     private void FreezeVelocity()
     {
         rb.linearVelocity = Vector3.zero;
+    }
+
+    private void OnTriggerEnter(Collider coll)
+    {
+        if(coll.gameObject.CompareTag("Player"))
+            DoAttackHit<Player>();
     }
 }
