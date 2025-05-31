@@ -1284,6 +1284,7 @@ GameObject:
   - component: {fileID: 1595453563184289392}
   - component: {fileID: 6965710561011557623}
   - component: {fileID: 5212987717238584511}
+  - component: {fileID: 8822864464327802131}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1398,8 +1399,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joyStick: {fileID: 0}
   moveSpeed: 5
-  playerFSM: {fileID: 0}
-  attackRange: 1.5
 --- !u!114 &6965710561011557623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1424,6 +1423,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3f863242585b4fe8ae6c99aa5fdb59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackRange: 1.5
+  attackCoolTime: 0.5
+--- !u!114 &8822864464327802131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822099257954947620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c04dca793734f6ea22b94618e63e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5212987717238584511}
 --- !u!1 &3940666507069639143
 GameObject:
   m_ObjectHideFlags: 0
