@@ -3,10 +3,12 @@ using UnityEngine;
 public class Enemy : Creature
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        HP = 100f;
-        MP = 50f;
+        MaxHP = 100f;
+        HP = MaxHP;
+        MaxMP = 50f;
+        MP = MaxMP;
         ATK = 10f;
         DEF = 3f;
         EXP = 3f;

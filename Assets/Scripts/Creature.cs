@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Creature : MonoBehaviour, IDamageable
 {
+    private float maxHp;
+    private float maxMp;
     private float hp;
     private float mp;
     private float atk;
@@ -16,6 +18,8 @@ public class Creature : MonoBehaviour, IDamageable
     protected float attackCoolTime = 0.5f;
     
     protected float lastAttackTime = 0.0f;
+    public float MaxHP{get => maxHp; set => maxHp=value; }
+    public float MaxMP{get => maxMp; set => maxMp=value; }
     public float HP { get => hp; set => hp = value; }
     public float MP { get => mp; set => mp = value; }
     public float ATK { get => atk; set => atk = value; }

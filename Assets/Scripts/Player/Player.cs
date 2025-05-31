@@ -2,10 +2,12 @@ using UnityEngine;
 
 public class Player : Creature
 {
-    void Start()
+    void Awake()
     {
-        HP = 100f;
-        MP = 100f;
+        MaxHP = 100f;
+        HP = MaxHP;
+        MaxMP = 100f;
+        MP = MaxMP;
         ATK = 10f;
         EXP = 0f;
         DEF = 5f;
