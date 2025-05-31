@@ -2,26 +2,31 @@ using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
 {
-    private Animator anim;
+    private Animator _anim;
     
+    public Animator Animator
+    {
+        get { return _anim; }
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        anim = GetComponent<Animator>();
+        _anim = GetComponent<Animator>();
+        Animator.applyRootMotion = true;
     }
 
     public void SetAnimatorTrigger(string trigger)
     {
-        anim.SetTrigger(trigger);
+        Animator.SetTrigger(trigger);
     }
 
     public void ResetAnimatorTrigger(string trigger)
     {
-        anim.ResetTrigger(trigger);
+        Animator.ResetTrigger(trigger);
     }
 
     public void SetFloat(string parameter, float value)
     {
-        anim.SetFloat(parameter, value);
+        Animator.SetFloat(parameter, value);
     }
 }

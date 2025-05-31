@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class Player : Creature
 {
-    void OnDamage(float damage)
+    void Start()
     {
-        base.OnDamage(damage);
+        HP = 100f;
+        MP = 100f;
+        ATK = 10f;
+        EXP = 0f;
+        DEF = 5f;
+        IsDead = false;
     }
 }

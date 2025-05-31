@@ -14,31 +14,15 @@ public class PlayerFSM : MonoBehaviour
     }
 
     [SerializeField] 
-    private GameObject player;
-
-    private GameObject _instance;
+    private Player player;
+    
     private PlayerState currentState;
     private PlayerAnimator animator;
-    private PlayerController playerController;
-
-    void Awake()
-    {
-        if (_instance == null)
-        {
-            _instance = gameObject;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-    }
-
+    
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
         currentState = PlayerState.Idle;
         animator = player.GetComponent<PlayerAnimator>();
-        playerController = player.GetComponent<PlayerController>();
     }
 
     public PlayerState GetState()
@@ -52,9 +36,9 @@ public class PlayerFSM : MonoBehaviour
         switch (newState)
         {
             case PlayerState.Attack:
-                if (!playerController.CanAttack()) break;
+                if (!player.CanAttack()) break;
                 animator.SetAnimatorTrigger("Attack");
-                playerController.DoAttackHit();
+                player.DoAttackHit<Enemy>();
                 break;
             case PlayerState.Jump:
                 animator.SetAnimatorTrigger("Jump");
