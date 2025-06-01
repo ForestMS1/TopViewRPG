@@ -12,8 +12,7 @@ public class AttackCollider : MonoBehaviour
         if (enemy.State == Enemy.EnemyState.Chase && coll.gameObject.CompareTag("Player"))
         {
             enemy.State = Enemy.EnemyState.Attack;
-            if(enemy.CanAttack())
-                enemy.DoAttackHit<Player>();
+            enemy.DoAttackHit<Player>();
             enemy.State = Enemy.EnemyState.Chase;
         }
     }
@@ -23,8 +22,7 @@ public class AttackCollider : MonoBehaviour
         if (enemy.State == Enemy.EnemyState.Chase && coll.gameObject.CompareTag("Player"))
         {
             enemy.State = Enemy.EnemyState.Attack;
-            if(enemy.CanAttack())
-                enemy.DoAttackHit<Player>();
+            enemy.DoAttackHit<Player>();
             enemy.State = Enemy.EnemyState.Chase;
         }
     }

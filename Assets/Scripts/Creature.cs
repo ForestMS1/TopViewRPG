@@ -17,7 +17,7 @@ public class Creature : MonoBehaviour, IDamageable
     [SerializeField] 
     protected float attackCoolTime = 0.5f;
     
-    protected float lastAttackTime = 0.0f;
+    protected float lastAttackTime;
     public float MaxHP{get => maxHp; set => maxHp=value; }
     public float MaxMP{get => maxMp; set => maxMp=value; }
     public float HP { get => hp; set => hp = value; }
@@ -26,6 +26,11 @@ public class Creature : MonoBehaviour, IDamageable
     public float DEF { get => defence; set => defence = value; }
     public float EXP { get => exp; set => exp = value; }
     public bool IsDead { get => isDead; set => isDead = value; }
+
+    void Awake()
+    {
+        lastAttackTime = Time.time;
+    }
 
     public virtual void OnDamage(float damage)
     {
@@ -44,6 +49,7 @@ public class Creature : MonoBehaviour, IDamageable
 
     public virtual void DoAttackHit<T>() where T : Creature
     {
+        if (!CanAttack()) return;
         Collider[] hits = Physics.OverlapSphere(transform.position + transform.forward, attackRange);
 
         if (hits.Length > 0)
