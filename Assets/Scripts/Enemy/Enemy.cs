@@ -11,7 +11,7 @@ public class Enemy : Creature
     private Transform target;
     private Rigidbody rb;
     private SphereCollider attackCollider;
-    private enum EnemyState
+    public enum EnemyState
     {
         Idle,
         Chase,
@@ -20,6 +20,11 @@ public class Enemy : Creature
     }
 
     private EnemyState state;
+    public EnemyState State
+    {
+        get => state;
+        set => state = value;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -54,32 +59,15 @@ public class Enemy : Creature
         rb.linearVelocity = Vector3.zero;
     }
 
-    private void OnTriggerEnter(Collider coll)
-    {
-        if (state == EnemyState.Chase && coll.gameObject.CompareTag("Player"))
-        {
-            state = EnemyState.Attack;
-            if(CanAttack())
-                DoAttackHit<Player>();
-            state = EnemyState.Chase;
-        }
-    }
-
-    private void OnTriggerStay(Collider coll)
-    {
-        if (state == EnemyState.Chase && coll.gameObject.CompareTag("Player"))
-        {
-            state = EnemyState.Attack;
-            if(CanAttack())
-                DoAttackHit<Player>();
-            state = EnemyState.Chase;
-        }
-    }
-
     public override void OnDamage(float damage)
     {
         base.OnDamage(damage);
         if(!IsDead)
             state = EnemyState.Chase;
+    }
+
+    public EnemyState GetState()
+    {
+        return state;
     }
 }
