@@ -6,7 +6,8 @@ public class PlayerController : MonoBehaviour
     private VariableJoystick joyStick;
     [SerializeField]
     private float moveSpeed = 5.0f;
-    
+    [SerializeField]
+    private InputManager inputManager;
     private Player player;
     private Rigidbody rigid;
     private float verticalMove;
@@ -36,6 +37,11 @@ public class PlayerController : MonoBehaviour
         //Input Value
         verticalMove = joyStick.Vertical;
         horizontalMove = joyStick.Horizontal;
+        if (verticalMove == 0 || horizontalMove == 0)
+        {
+            verticalMove = inputManager.Vertical;
+            horizontalMove = inputManager.Horizontal;
+        }
         moveVec = new Vector3(horizontalMove, 0, verticalMove);
         
         
