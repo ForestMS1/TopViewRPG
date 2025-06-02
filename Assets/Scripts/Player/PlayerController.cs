@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -6,6 +7,8 @@ public class PlayerController : MonoBehaviour
     private VariableJoystick joyStick;
     [SerializeField]
     private float moveSpeed = 5.0f;
+    [SerializeField] 
+    private float jumpForce = 4.0f;
     [SerializeField]
     private InputManager inputManager;
     private Player player;
@@ -15,6 +18,11 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveVec;
     private PlayerAnimator animator;
     private PlayerFSM playerFSM;
+    private bool isGrounded;
+    [SerializeField] 
+    private float groundCheckDistance;
+    private LayerMask groundLayer;
+    
     
 
     void Start()
@@ -23,6 +31,14 @@ public class PlayerController : MonoBehaviour
         rigid = GetComponent<Rigidbody>();
         animator = GetComponent<PlayerAnimator>();
         playerFSM = GetComponent<PlayerFSM>();
+        isGrounded = true;
+        groundLayer = LayerMask.GetMask("Ground");
+        groundCheckDistance = 0.1f;
+    }
+
+    void Update()
+    {
+        isGrounded = Physics.Raycast(transform.position, Vector3.down, groundCheckDistance, groundLayer);
     }
 
     void FixedUpdate()
@@ -59,6 +75,12 @@ public class PlayerController : MonoBehaviour
         Quaternion dirQuat = Quaternion.LookRotation(moveVec);
         Quaternion moveQuat = Quaternion.Slerp(rigid.rotation, dirQuat, 0.3f);
         rigid.MoveRotation(moveQuat);
+    }
+
+    public void Jump()
+    {
+        if (!isGrounded) return; //바닥을 밟고있는게 아니라면 리턴
+        rigid.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
     
 }

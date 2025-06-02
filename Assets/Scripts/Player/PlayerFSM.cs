@@ -16,6 +16,7 @@ public class PlayerFSM : MonoBehaviour
     [SerializeField] 
     private Player player;
     
+    private PlayerController playerController;
     private PlayerState currentState;
     private PlayerAnimator animator;
     
@@ -23,6 +24,7 @@ public class PlayerFSM : MonoBehaviour
     {
         currentState = PlayerState.Idle;
         animator = player.GetComponent<PlayerAnimator>();
+        playerController = player.GetComponent<PlayerController>();
     }
 
     public PlayerState GetState()
@@ -42,6 +44,7 @@ public class PlayerFSM : MonoBehaviour
                 break;
             case PlayerState.Jump:
                 animator.SetAnimatorTrigger("Jump");
+                playerController.Jump();
                 break;
             //case PlayerState.Dead:
         }
