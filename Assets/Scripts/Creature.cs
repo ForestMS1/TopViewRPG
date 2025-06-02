@@ -82,9 +82,7 @@ public class Creature : MonoBehaviour, IDamageable
 
     public virtual void Die()
     {
-        //일단 오브젝트 비활성화로 Die
         IsDead = true;
         Debug.Log($"{gameObject.name} is dead!");
-        //gameObject.SetActive(false);
     }
 }

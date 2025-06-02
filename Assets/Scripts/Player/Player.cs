@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Player : Creature
@@ -5,6 +6,11 @@ public class Player : Creature
     [SerializeField] 
     private PlayerFSM _playerFsm;
     private PlayerAnimator _playerAnimator;
+    
+    [SerializeField]
+    private float invincibleTime = 1f;
+
+    private float lastDamagedTime;
     void Awake()
     {
         MaxHP = 100f;
@@ -17,18 +23,35 @@ public class Player : Creature
         IsDead = false;
         _playerFsm = GetComponent<PlayerFSM>();
         _playerAnimator = GetComponent<PlayerAnimator>();
+        lastDamagedTime = Time.time;
     }
 
     public override void OnDamage(float damage)
     {
+        if (lastDamagedTime + invincibleTime > Time.time) return; //피격 후 무적시간동안 무적
         base.OnDamage(damage);
-        _playerAnimator.SetAnimatorTrigger("GetHit");
-        //_playerFsm.ChangeState(PlayerFSM.PlayerState.Damaged);
+        lastDamagedTime = Time.time;
+        //_playerAnimator.SetAnimatorTrigger("GetHit");
+        _playerFsm.ChangeState(PlayerFSM.PlayerState.Damaged);
+        if (!IsDead)
+        {
+            StartCoroutine(nameof(OnDamageDelay));
+        }
+        else
+        {
+            _playerFsm.ChangeState(PlayerFSM.PlayerState.Dead); //데미지 받고 죽었을 때 플레이어의 마지막 상태가 Damaged로 되는 거 방지
+        }
     }
     public override void Die()
     {
         base.Die();
-        _playerAnimator.SetAnimatorTrigger("Die");
-        //_playerFsm.ChangeState(PlayerFSM.PlayerState.Dead);
+        Debug.Log("PlayerDie호출됨!");
+        _playerFsm.ChangeState(PlayerFSM.PlayerState.Dead);
+    }
+
+    IEnumerator OnDamageDelay()
+    {
+        yield return new WaitForSeconds(invincibleTime);
+        _playerFsm.ChangeState(PlayerFSM.PlayerState.Idle);
     }
 }
