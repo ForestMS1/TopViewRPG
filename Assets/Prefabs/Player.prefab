@@ -1399,6 +1399,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joyStick: {fileID: 0}
   moveSpeed: 5
+  jumpForce: 4
+  inputManager: {fileID: 0}
+  groundCheckDistance: 0.1
 --- !u!114 &6965710561011557623
 MonoBehaviour:
   m_ObjectHideFlags: 0
