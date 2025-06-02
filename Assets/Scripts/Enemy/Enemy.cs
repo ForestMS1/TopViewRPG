@@ -6,11 +6,11 @@ public class Enemy : Creature
 {
 
     [SerializeField] 
-    private NavMeshAgent agent;
+    protected NavMeshAgent agent;
     [SerializeField] 
-    private Transform target;
-    private Rigidbody rb;
-    private SphereCollider attackCollider;
+    protected Transform target;
+    protected Rigidbody rb;
+    protected SphereCollider attackCollider;
     public enum EnemyState
     {
         Idle,
@@ -19,13 +19,13 @@ public class Enemy : Creature
         Die
     }
 
-    private EnemyState state;
+    protected EnemyState state;
     public EnemyState State
     {
         get => state;
         set => state = value;
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Awake()
     {
         MaxHP = 100f;

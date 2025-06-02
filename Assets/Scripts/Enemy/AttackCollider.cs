@@ -11,9 +11,12 @@ public class AttackCollider : MonoBehaviour
     {
         if (enemy.State == Enemy.EnemyState.Chase && coll.gameObject.CompareTag("Player"))
         {
-            enemy.State = Enemy.EnemyState.Attack;
-            enemy.DoAttackHit<Player>();
-            enemy.State = Enemy.EnemyState.Chase;
+            if (!coll.GetComponent<Player>().IsDead)
+            {
+                enemy.State = Enemy.EnemyState.Attack;
+                enemy.DoAttackHit<Player>();
+                enemy.State = Enemy.EnemyState.Chase;   
+            }
         }
     }
 
@@ -21,9 +24,12 @@ public class AttackCollider : MonoBehaviour
     {
         if (enemy.State == Enemy.EnemyState.Chase && coll.gameObject.CompareTag("Player"))
         {
-            enemy.State = Enemy.EnemyState.Attack;
-            enemy.DoAttackHit<Player>();
-            enemy.State = Enemy.EnemyState.Chase;
+            if (!coll.GetComponent<Player>().IsDead)
+            {
+                enemy.State = Enemy.EnemyState.Attack;
+                enemy.DoAttackHit<Player>();
+                enemy.State = Enemy.EnemyState.Chase;   
+            }
         }
     }
 }

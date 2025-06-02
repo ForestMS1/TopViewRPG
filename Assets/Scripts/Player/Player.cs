@@ -32,9 +32,9 @@ public class Player : Creature
         base.OnDamage(damage);
         lastDamagedTime = Time.time;
         //_playerAnimator.SetAnimatorTrigger("GetHit");
-        _playerFsm.ChangeState(PlayerFSM.PlayerState.Damaged);
         if (!IsDead)
         {
+            _playerFsm.ChangeState(PlayerFSM.PlayerState.Damaged);
             StartCoroutine(nameof(OnDamageDelay));
         }
         else

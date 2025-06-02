@@ -51,7 +51,8 @@ public class Creature : MonoBehaviour, IDamageable
     {
         if (!CanAttack()) return;
         Collider[] hits = Physics.OverlapSphere(transform.position + transform.forward, attackRange);
-
+        Animator animator = gameObject.GetComponent<Animator>();
+        animator.SetTrigger("Attack");
         if (hits.Length > 0)
         {
             foreach (var hit in hits)
