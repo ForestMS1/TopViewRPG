@@ -45,7 +45,7 @@ public class Enemy : Creature
 
     void Update()
     {
-        if(state == EnemyState.Chase)
+        if(state == EnemyState.Chase && !target.GetComponent<Player>().IsDead)
             agent.SetDestination(target.position);
     }
 
