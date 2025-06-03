@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6381638915765657914}
   m_Layer: 0
   m_Name: Slime_01_Viking
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,9 +161,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 1.5
-  attackCoolTime: 0.5
+  attackCoolTime: 2
   agent: {fileID: 0}
   target: {fileID: 0}
+  slimeData: {fileID: 11400000, guid: 76df4a533dea8c046b77d048d1a390d2, type: 2}
 --- !u!1 &135623670522956890
 GameObject:
   m_ObjectHideFlags: 0
