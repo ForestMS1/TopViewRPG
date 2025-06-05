@@ -2,13 +2,20 @@ using UnityEngine;
 
 public class Skill
 {
+    //스킬은 플레이어, 몬스터, 보스 등 모두가 사용할 수 있도록 설계
     [Header("기본 정보")]
     private string name;
     private string description;
-    private float cooldown;
+    private float coolDown;
     private float currentCooldown;
     private float mpCost;
     private Sprite icon;
+    
+    public string Name { get => name; set => name = value; }
+    public string Description { get => description; set => description = value; }
+    public float CoolDown { get => coolDown; set => coolDown = value; }
+    public float CurrentCool { get => currentCooldown; set => currentCooldown = value; }
+    public float MpCost { get => mpCost; set => mpCost = value; }
 
     [Header("작동 관련")] 
     private float castTime; //시전 시간
@@ -32,7 +39,7 @@ public class Skill
         Directional
     }
 
-    public virtual void Activate()
+    public virtual void Activate(Creature actor)
     {
         if (!CanUse())
         {
@@ -49,7 +56,7 @@ public class Skill
 
     public void StartCooldown()
     {
-        currentCooldown = cooldown;
+        currentCooldown = coolDown;
         
     }
 }
