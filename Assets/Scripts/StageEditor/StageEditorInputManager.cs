@@ -4,39 +4,53 @@ using UnityEngine.InputSystem;
 public class StageEditorInputManager : MonoBehaviour
 {
     public float camMoveSpeed = 5f;
+    public float camRotateSpeed = 3f;
+
     private Vector2 moveInput;
-    private Transform cam;
+    private Vector2 lookInput;
+    public Transform cam;
+    private float rotationX;
+    private float rotationY;
 
-    void Start( )
+    void Start()
     {
-        cam = StageEditorCamera.instance.transform;
+        Vector3 angles = cam.eulerAngles;
+        rotationX = angles.y;
+        rotationY = angles.x;
     }
 
-    public void OnMove( InputValue value )
+    public void OnMove(InputValue value)
     {
-        moveInput = value.Get<Vector2>( );
+        moveInput = value.Get<Vector2>();
     }
 
-    void Update( )
+    public void OnLook(InputValue value)
     {
-        MoveCam( );
+        lookInput = value.Get<Vector2>();
     }
 
-    private void MoveCam( )
+    void Update()
     {
-        if( cam == null ) return;
-        if( moveInput == Vector2.zero ) return;
-        if( !StageEditorCamera.instance.isOrthographic ) return;
+        RotateCam();
+        MoveCam();
+    }
 
-        Vector3 forward = cam.transform.forward;
-        forward.y = 0;
-        forward.Normalize( );
+    private void MoveCam()
+    {
+        if (cam == null || moveInput == Vector2.zero) return;
 
-        Vector3 right = cam.transform.right;
-        right.y = 0;
-        right.Normalize( );
+        Vector3 move = (cam.right * moveInput.x + cam.forward * moveInput.y);
+        cam.position += move * camMoveSpeed * Time.deltaTime;
+    }
 
-        Vector3 move = ( right * moveInput.x + forward * moveInput.y ) * camMoveSpeed * Time.deltaTime;
-        cam.position += move;
+    private void RotateCam()
+    {
+        if (cam == null || lookInput == Vector2.zero) return;
+
+        rotationX += lookInput.x * camRotateSpeed;
+        rotationY -= lookInput.y * camRotateSpeed;
+        rotationY = Mathf.Clamp(rotationY, -89f, 89f);
+
+        cam.rotation = Quaternion.Euler(rotationY, rotationX, 0f);
     }
 }
