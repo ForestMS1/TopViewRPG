@@ -1,16 +1,29 @@
 using UnityEngine;
+using Unity.Cinemachine;
+using UnityEngine.UI;
+using TMPro;
 
 public class StageEditorCamera : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [Header("Cameras")]
+    public CinemachineCamera cineCam;
+    public Camera mainCam;
+    
+    [Header("Variables")]
+    public bool isOrthographic = true;
+
+    [Header( "UI Objects" )]
+    public TMP_Text camButtonText;
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeCamMode( )
     {
-        
+        isOrthographic = !isOrthographic;
+        mainCam.orthographic = isOrthographic;
+        camButtonText.text = isOrthographic ? "Isometric" : "Perspective";
     }
 }
