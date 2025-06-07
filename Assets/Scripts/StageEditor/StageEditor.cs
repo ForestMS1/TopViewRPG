@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
@@ -12,6 +13,18 @@ public class StageEditor : MonoBehaviour
     [Header("UI Objects")]
     public Transform objectScrollViewContent;
     public GameObject objectScrollViewPrefab;
+
+    [Header( "Variables" )]
+    public static StageEditor instance;
+    public GameObject selectedObject;
+
+    private void Awake( )
+    {
+        if( instance == null )
+            instance = this;
+        else
+            Destroy( this );
+    }
 
     void Start()
     {
@@ -75,5 +88,14 @@ public class StageEditor : MonoBehaviour
         {
             Debug.LogWarning($"썸네일 생성 실패: {obj.name}");
         }
+    }
+
+    public void SelectObject( GameObject target )
+    {
+        if(selectedObject != null)
+            selectedObject.GetComponent<StageEditorObjectButton>(  ).selected.SetActive( false );
+        
+        selectedObject = target;
+        selectedObject.GetComponent<StageEditorObjectButton>(  ).selected.SetActive( true );
     }
 }
