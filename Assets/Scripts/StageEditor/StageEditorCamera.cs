@@ -14,10 +14,15 @@ public class StageEditorCamera : MonoBehaviour
 
     [Header( "UI Objects" )]
     public TMP_Text camButtonText;
+
+    public static StageEditorCamera instance;
     
-    void Start()
+    void Awake( )
     {
-        
+        if( instance == null )
+            instance = this;
+        else
+            Destroy( this );
     }
 
     public void ChangeCamMode( )
