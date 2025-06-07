@@ -79,7 +79,7 @@ public class StageEditor : MonoBehaviour
                 new Vector2(0.5f, 0.5f));
 
             GameObject item = Instantiate(objectScrollViewPrefab, objectScrollViewContent);
-
+            item.GetComponent<StageEditorObjectButton>( ).targetObject = obj;
             Image image = item.GetComponent<Image>();
             if (image != null)
                 image.sprite = sprite;

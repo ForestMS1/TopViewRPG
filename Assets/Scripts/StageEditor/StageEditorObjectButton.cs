@@ -5,6 +5,7 @@ public class StageEditorObjectButton : MonoBehaviour
 {
     public GameObject selected;
     private Button button;
+    public GameObject targetObject;
     
     void Start()
     {
