@@ -64,15 +64,18 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5682048779842530268}
     - targetCorrespondingSourceObject: {fileID: 5934645452750873795, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7434026968267295252}
+    - targetCorrespondingSourceObject: {fileID: 5934645452750873795, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 347943423199860732}
     - targetCorrespondingSourceObject: {fileID: -8217779971215257619, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4440051009952371770}
+    - targetCorrespondingSourceObject: {fileID: -8217779971215257619, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1140530357987090606}
   m_SourcePrefab: {fileID: 100100000, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
 --- !u!1 &3182169257290988675 stripped
 GameObject:
@@ -101,18 +104,13 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -707059632129313375, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
---- !u!1 &3250661470103883327 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
-  m_PrefabInstance: {fileID: 2440320649417880430}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5682048779842530268
+--- !u!114 &1140530357987090606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3250661470103883327}
+  m_GameObject: {fileID: 3182169257290988675}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
@@ -120,7 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 1
   outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -151,3 +149,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6285565591548356222, guid: c0bc74af57227e24e82401a936ba6f8c, type: 3}
+--- !u!114 &347943423199860732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8323173465003661229}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

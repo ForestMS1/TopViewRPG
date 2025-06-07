@@ -22,7 +22,7 @@ public class StageEditor : MonoBehaviour
     public static StageEditor instance;
     public GameObject selectedObject;
 
-    private Outline currentOutlined = null;
+    private List<Outline> currentOutlines = new List<Outline>();
 
     private void Awake()
     {
@@ -123,25 +123,34 @@ public class StageEditor : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(origin, direction, out hit))
         {
-            Outline newOutline = hit.collider.GetComponent<Outline>();
-            if (newOutline != null)
-            {
-                if (currentOutlined != null && currentOutlined != newOutline)
-                    currentOutlined.enabled = false;
+            GameObject rootObj = hit.collider.transform.root.gameObject;
+            Outline[] newOutlines = rootObj.GetComponentsInChildren<Outline>(true);
 
-                currentOutlined = newOutline;
-                currentOutlined.enabled = true;
-            }
-            else if (currentOutlined != null)
-            {
-                currentOutlined.enabled = false;
-                currentOutlined = null;
-            }
+            if (IsSameOutlines(newOutlines, currentOutlines))
+                return;
+
+            SetOutlinesEnabled(currentOutlines, false);
+            currentOutlines = new List<Outline>(newOutlines);
+            SetOutlinesEnabled(currentOutlines, true);
         }
-        else if (currentOutlined != null)
+        else
         {
-            currentOutlined.enabled = false;
-            currentOutlined = null;
+            SetOutlinesEnabled(currentOutlines, false);
+            currentOutlines.Clear();
         }
+    }
+
+    private void SetOutlinesEnabled(List<Outline> outlines, bool enabled)
+    {
+        foreach (var outline in outlines)
+            outline.enabled = enabled;
+    }
+
+    private bool IsSameOutlines(Outline[] a, List<Outline> b)
+    {
+        if (a.Length != b.Count) return false;
+        for (int i = 0; i < a.Length; i++)
+            if (a[i] != b[i]) return false;
+        return true;
     }
 }
