@@ -3195,6 +3195,7 @@ MonoBehaviour:
   chapterObjectDatas: []
   objectScrollViewContent: {fileID: 487936841}
   objectScrollViewPrefab: {fileID: 3189511933949485471, guid: 3e0ecf853b12a9e44a51bed693eb7f78, type: 3}
+  mainCam: {fileID: 0}
   selectedObject: {fileID: 0}
 --- !u!4 &1444551545
 Transform:

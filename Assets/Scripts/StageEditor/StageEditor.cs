@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class StageEditor : MonoBehaviour
 {
@@ -14,22 +15,35 @@ public class StageEditor : MonoBehaviour
     public Transform objectScrollViewContent;
     public GameObject objectScrollViewPrefab;
 
-    [Header( "Variables" )]
+    [Header("Camera")]
+    public Camera mainCam;
+
+    [Header("Variables")]
     public static StageEditor instance;
     public GameObject selectedObject;
 
-    private void Awake( )
+    private Outline currentOutlined = null;
+
+    private void Awake()
     {
-        if( instance == null )
+        if (instance == null)
             instance = this;
         else
-            Destroy( this );
+            Destroy(this);
     }
 
     void Start()
     {
         LoadChapterObjectDatas();
         DisplayChapterObjects();
+
+        if (mainCam == null)
+            mainCam = Camera.main;
+    }
+
+    void Update()
+    {
+        UpdateRaycastOutline();
     }
 
     public void LoadChapterObjectDatas()
@@ -61,9 +75,9 @@ public class StageEditor : MonoBehaviour
 
         while (AssetPreview.IsLoadingAssetPreview(id))
             yield return null;
-        
+
         Texture2D preview = AssetPreview.GetAssetPreview(obj);
-        
+
         int retry = 0;
         while (preview == null && retry < 20)
         {
@@ -79,7 +93,7 @@ public class StageEditor : MonoBehaviour
                 new Vector2(0.5f, 0.5f));
 
             GameObject item = Instantiate(objectScrollViewPrefab, objectScrollViewContent);
-            item.GetComponent<StageEditorObjectButton>( ).targetObject = obj;
+            item.GetComponent<StageEditorObjectButton>().targetObject = obj;
             Image image = item.GetComponent<Image>();
             if (image != null)
                 image.sprite = sprite;
@@ -90,12 +104,44 @@ public class StageEditor : MonoBehaviour
         }
     }
 
-    public void SelectObject( GameObject target )
+    public void SelectObject(GameObject target)
     {
-        if(selectedObject != null)
-            selectedObject.GetComponent<StageEditorObjectButton>(  ).selected.SetActive( false );
-        
+        if (selectedObject != null)
+            selectedObject.GetComponent<StageEditorObjectButton>().selected.SetActive(false);
+
         selectedObject = target;
-        selectedObject.GetComponent<StageEditorObjectButton>(  ).selected.SetActive( true );
+        selectedObject.GetComponent<StageEditorObjectButton>().selected.SetActive(true);
+    }
+
+    private void UpdateRaycastOutline()
+    {
+        if (mainCam == null) return;
+
+        Vector3 origin = mainCam.transform.position;
+        Vector3 direction = mainCam.transform.forward;
+
+        RaycastHit hit;
+        if (Physics.Raycast(origin, direction, out hit))
+        {
+            Outline newOutline = hit.collider.GetComponent<Outline>();
+            if (newOutline != null)
+            {
+                if (currentOutlined != null && currentOutlined != newOutline)
+                    currentOutlined.enabled = false;
+
+                currentOutlined = newOutline;
+                currentOutlined.enabled = true;
+            }
+            else if (currentOutlined != null)
+            {
+                currentOutlined.enabled = false;
+                currentOutlined = null;
+            }
+        }
+        else if (currentOutlined != null)
+        {
+            currentOutlined.enabled = false;
+            currentOutlined = null;
+        }
     }
 }
