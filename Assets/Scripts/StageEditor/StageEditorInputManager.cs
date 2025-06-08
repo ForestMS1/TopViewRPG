@@ -47,7 +47,7 @@ public class StageEditorInputManager : MonoBehaviour
     
     public void OnDeleteObject( InputValue value )
     {
-        if( cursorLocked ) return;
+        if( !cursorLocked ) return;
         StageEditor.instance.DeleteObjectOnLeftClick(  );
     }
 
