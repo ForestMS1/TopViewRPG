@@ -3499,25 +3499,10 @@ MonoBehaviour:
     position: {x: 14, y: 5, z: 35}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
-    position: {x: 14, y: 5, z: 36}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
     position: {x: 15, y: 5, z: 35}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
-    position: {x: 15, y: 5, z: 36}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
     position: {x: 16, y: 5, z: 35}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 16, y: 5, z: 36}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 17, y: 5, z: 35}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 17, y: 5, z: 36}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
     position: {x: 14, y: 6, z: 36}
@@ -3835,24 +3820,6 @@ MonoBehaviour:
     position: {x: 12, y: 4, z: 41}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
-    position: {x: 12, y: 4, z: 42}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 12, y: 4, z: 43}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 12, y: 4, z: 44}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 12, y: 4, z: 45}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 12, y: 4, z: 46}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 12, y: 4, z: 47}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
     position: {x: 8, y: 4, z: 41}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
@@ -3935,9 +3902,6 @@ MonoBehaviour:
     rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   - objectID: HJD_FP_block02
     position: {x: 7, y: 4, z: 48}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: 8, y: 4, z: 48}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: Fence
     position: {x: 6, y: 5, z: 48}
@@ -4034,9 +3998,6 @@ MonoBehaviour:
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
     position: {x: 0, y: 5, z: 47}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  - objectID: HJD_FP_block02
-    position: {x: -1, y: 5, z: 47}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
     position: {x: 0, y: 5, z: 46}
@@ -4168,5 +4129,3809 @@ MonoBehaviour:
     position: {x: 11, y: 3, z: 49}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 4, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 4, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 4, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 4, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 5, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 5, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 5, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 15, y: 5, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 15, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 15, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ramp01
+    position: {x: 15, y: 4, z: 50}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 15, y: 4, z: 49}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 50}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 49}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 16, y: 5, z: 53}
+    rotation: {x: -0, y: -0, z: -0, w: -1}
+  - objectID: Fence
+    position: {x: 17, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 53}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 52}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 51}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 50}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 49}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 48}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 18, y: 5, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 17, y: 5, z: 48}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 16, y: 5, z: 48}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 41}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
     position: {x: 12, y: 4, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 41}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 41}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 5, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 5, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 48}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 5, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 46}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 45}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 43}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 44}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 4, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 4, z: 41}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 42}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 4, z: 41}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 5, z: 36}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 5, z: 36}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 5, z: 36}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 5, z: 36}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 5, z: 35}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Chest
+    position: {x: 17, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 9, y: 4, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 10, y: 4, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 11, y: 4, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 6, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 6, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 6, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 5, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 5, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 5, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 5, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 5, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 6, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 6, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 6, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 6, z: 52}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 3, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 55}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 56}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 51}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 60}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 59}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 58}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 57}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 56}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 55}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 15, y: 4, z: 54}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 4, y: 4, z: 60}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: HJD_FP_ramp01
+    position: {x: 5, y: 4, z: 60}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 2, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 1, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 1, y: 5, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 2, y: 5, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 2, y: 5, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 2, y: 5, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 2, y: 5, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 59}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 58}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 57}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 2, y: 5, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 4, y: 5, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 3, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 4, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 5, y: 5, z: 53}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 5, y: 5, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 4, y: 5, z: 54}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 4, y: 5, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 5, y: 5, z: 55}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 5, y: 5, z: 56}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_crate00
+    position: {x: 2, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 4, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 5, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 5, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 4, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 5, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 5, z: 60}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 6, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 6, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 6, y: 5, z: 62}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 6, y: 5, z: 61}
+    rotation: {x: -0, y: -0, z: -0, w: -1}
+  - objectID: Fence
+    position: {x: 6, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 7, y: 5, z: 61}
+    rotation: {x: -0, y: -0, z: -0, w: -1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 6, z: 65}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 6, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 6, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 6, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 6, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 15, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 16, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 17, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 6, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 6, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ramp01
+    position: {x: 14, y: 5, z: 63}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 14, y: 5, z: 64}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 12, y: 6, z: 63}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 12, y: 6, z: 64}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 11, y: 7, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 10, y: 7, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 63}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 5, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 5, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 5, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 6, z: 66}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 6, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 6, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 6, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 64}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 65}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 66}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 67}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 9, y: 7, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 10, y: 7, z: 67}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 11, y: 7, z: 67}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 11, y: 7, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 11, y: 7, z: 66}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: Fence
+    position: {x: 11, y: 7, z: 65}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 5, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 5, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 5, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 6, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 6, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 6, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 6, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 6, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 5, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 6, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 6, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 4, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 5, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 4, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 5, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 5, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 6, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 6, z: 61}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 6, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 6, z: 62}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 5, z: 63}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 5, z: 64}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 5, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 5, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 3, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 4, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 4, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 4, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 4, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 4, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 4, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 4, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 4, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 4, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 4, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 4, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 4, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -2, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -2, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -2, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -2, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 4, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 4, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 4, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 4, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 4, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 4, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 5, z: 47}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 65}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 66}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 67}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 68}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 69}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 70}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 71}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -2, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 3, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 4, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 2, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 2, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 2, z: 72}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 3, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 3, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 3, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 3, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 3, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 3, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: -1, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 0, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -2, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: -1, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 0, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 4, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 3, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 3, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 3, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 3, z: 74}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 3, z: 73}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 3, z: 75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 3, z: 76}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 77}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 78}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 16, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 15, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 14, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 13, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 12, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 11, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 10, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ramp01
+    position: {x: 10, y: 3, z: 80}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 10, y: 3, z: 81}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 10, y: 3, z: 82}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 10, y: 3, z: 83}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 19, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 20, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 5, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 5, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 5, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 5, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 5, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 5, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 19, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 5, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 20, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 2, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 16, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 15, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 11, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 10, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 16, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 15, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 14, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 13, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 12, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 11, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 10, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 10, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 10, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 11, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 11, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 14, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 15, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 15, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 16, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 16, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 5, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 5, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 18, y: 5, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 17, y: 5, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 6, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 6, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 18, y: 6, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 17, y: 6, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ramp01
+    position: {x: 8, y: 4, z: 80}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 8, y: 4, z: 81}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 8, y: 4, z: 82}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_ramp01
+    position: {x: 8, y: 4, z: 83}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 2, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 82}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 81}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 80}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 6, y: 3, z: 80}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 5, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 4, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 3, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 2, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 1, y: 3, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 13, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 12, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 11, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 10, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 9, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 83}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 1, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 2, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 3, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 4, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 5, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: HJD_FP_block02
+    position: {x: 6, y: 4, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 9, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 8, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block00
+    position: {x: 7, y: 3, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 7, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 86}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 9, y: 4, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_block02
+    position: {x: 8, y: 4, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 5, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 5, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 5, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 8, y: 5, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 9, y: 5, z: 85}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 9, y: 5, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 6, y: 5, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 5, y: 5, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 4, y: 5, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 3, y: 5, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 2, y: 5, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 84}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 84}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 83}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 82}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 81}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 80}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 79}
+    rotation: {x: -0, y: -0, z: -0, w: -1}
+  - objectID: Fence
+    position: {x: 1, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 2, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 3, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 4, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 5, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: Fence
+    position: {x: 6, y: 5, z: 79}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - objectID: HJD_FP_ground01
+    position: {x: 7, y: 4, z: 79}
     rotation: {x: 0, y: 0, z: 0, w: 1}
