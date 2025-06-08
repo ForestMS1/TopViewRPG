@@ -6,6 +6,8 @@ public class StageEditorObjectButton : MonoBehaviour
     public GameObject selected;
     private Button button;
     public GameObject targetObject;
+
+    public StageObjectData data;
     
     void Start()
     {
@@ -14,5 +16,26 @@ public class StageEditorObjectButton : MonoBehaviour
         button.onClick.AddListener( () =>
             StageEditor.instance.SelectObject( this.gameObject )
          );
+    }
+
+    public void Init( GameObject obj )
+    {
+        targetObject = obj;
+        data = new StageObjectData
+        {
+            objectID = obj.name,
+            position = Vector3Int.zero,
+            rotation = Quaternion.identity
+        };
+    }
+
+    public void SetPosition( Vector3Int pos )
+    {
+        data.position = pos;
+    }
+
+    public void SetRotation( Quaternion rot )
+    {
+        data.rotation = rot;
     }
 }

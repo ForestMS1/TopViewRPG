@@ -8,20 +8,17 @@ using UnityEngine.InputSystem;
 
 public class StageEditor : MonoBehaviour
 {
-    [Header("Data")]
-    public List<ChapterObjectData> chapterObjectDatas;
+    [Header("Data")] public List<ChapterObjectData> chapterObjectDatas;
 
-    [Header("UI Objects")]
-    public Transform objectScrollViewContent;
+    [Header("UI Objects")] public Transform objectScrollViewContent;
     public GameObject objectScrollViewPrefab;
 
-    [Header("Camera")]
-    public Camera mainCam;
+    [Header("Camera")] public Camera mainCam;
 
-    [Header("Variables")]
+    [Header("Variables")] 
     public static StageEditor instance;
     public GameObject selectedObject;
-
+    public List<StageObjectData> currentMapObjects = new List<StageObjectData>();
     private List<Outline> currentOutlines = new List<Outline>();
 
     private void Awake()
@@ -44,6 +41,12 @@ public class StageEditor : MonoBehaviour
     void Update()
     {
         UpdateRaycastOutline();
+
+        // 우클릭 감지 및 오브젝트 배치
+        if (Mouse.current.rightButton.wasPressedThisFrame)
+        {
+            PlaceObjectOnRightClick();
+        }
     }
 
     public void LoadChapterObjectDatas()
@@ -93,7 +96,7 @@ public class StageEditor : MonoBehaviour
                 new Vector2(0.5f, 0.5f));
 
             GameObject item = Instantiate(objectScrollViewPrefab, objectScrollViewContent);
-            item.GetComponent<StageEditorObjectButton>().targetObject = obj;
+            item.GetComponent<StageEditorObjectButton>().Init(obj);
             Image image = item.GetComponent<Image>();
             if (image != null)
                 image.sprite = sprite;
@@ -120,8 +123,7 @@ public class StageEditor : MonoBehaviour
         Vector3 origin = mainCam.transform.position;
         Vector3 direction = mainCam.transform.forward;
 
-        RaycastHit hit;
-        if (Physics.Raycast(origin, direction, out hit))
+        if (Physics.Raycast(origin, direction, out RaycastHit hit))
         {
             GameObject rootObj = hit.collider.transform.root.gameObject;
             Outline[] newOutlines = rootObj.GetComponentsInChildren<Outline>(true);
@@ -140,6 +142,35 @@ public class StageEditor : MonoBehaviour
         }
     }
 
+    private void PlaceObjectOnRightClick()
+    {
+        if (selectedObject == null || mainCam == null)
+            return;
+
+        Vector3 origin = mainCam.transform.position;
+        Vector3 direction = mainCam.transform.forward;
+
+        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        {
+            // 배치 위치: 충돌 지점 + 법선 방향
+            Vector3 placePos = hit.collider.transform.position + hit.normal;
+            Vector3Int gridPos = Vector3Int.RoundToInt(placePos);
+
+            GameObject instance = Instantiate(selectedObject.GetComponent<StageEditorObjectButton>(  ).targetObject);
+            instance.transform.position = gridPos;
+            instance.transform.rotation = Quaternion.identity;
+
+            StageObjectData data = new StageObjectData
+            {
+                objectID = selectedObject.GetComponent<StageEditorObjectButton>(  ).targetObject.name,
+                position = gridPos,
+                rotation = Quaternion.identity
+            };
+
+            currentMapObjects.Add(data);
+        }
+    }
+
     private void SetOutlinesEnabled(List<Outline> outlines, bool enabled)
     {
         foreach (var outline in outlines)
@@ -150,7 +181,8 @@ public class StageEditor : MonoBehaviour
     {
         if (a.Length != b.Count) return false;
         for (int i = 0; i < a.Length; i++)
-            if (a[i] != b[i]) return false;
+            if (a[i] != b[i])
+                return false;
         return true;
     }
 }
