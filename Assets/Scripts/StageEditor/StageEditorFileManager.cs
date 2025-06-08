@@ -41,4 +41,34 @@ public class StageEditorFileManager : MonoBehaviour
 
         Debug.Log($"StageData 저장 완료: {filePath}");
     }
+    
+    public Dictionary<int, StageData[]> LoadAllStageData()
+    {
+        Dictionary<int, StageData[]> result = new Dictionary<int, StageData[]>();
+        StageData[] allStageData = Resources.LoadAll<StageData>("StageDatas");
+
+        Dictionary<int, List<StageData>> temp = new Dictionary<int, List<StageData>>();
+
+        foreach (var data in allStageData)
+        {
+            string path = AssetDatabase.GetAssetPath(data);
+            string[] parts = path.Split('/');
+
+            for (int i = 0; i < parts.Length; i++)
+            {
+                if (parts[i].StartsWith("Chapter") && int.TryParse(parts[i].Substring(7), out int chapterNum))
+                {
+                    if (!temp.ContainsKey(chapterNum))
+                        temp[chapterNum] = new List<StageData>();
+                    temp[chapterNum].Add(data);
+                    break;
+                }
+            }
+        }
+
+        foreach (var pair in temp)
+            result[pair.Key] = pair.Value.ToArray();
+
+        return result;
+    }
 }

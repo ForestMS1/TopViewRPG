@@ -8,10 +8,10 @@ using System.Collections.Generic;
 
 public class StageEditor : MonoBehaviour
 {
-    [Header("Data")]
+    [Header( "Data" )]
     public List<ChapterObjectData> chapterObjectDatas;
 
-    [Header("UI Objects")]
+    [Header( "UI Objects" )]
     public Transform objectScrollViewContent;
     public GameObject objectScrollViewPrefab;
     public TMP_Text currentObjectNameText;
@@ -21,122 +21,123 @@ public class StageEditor : MonoBehaviour
     public TMP_InputField stageNumInputField;
     public TMP_InputField stageNameInputField;
     public TMP_Text saveErrorText;
+    public GameObject loadedObjectPrefab;
+    public Transform loadedObjectSrollViewContent;
+    public GameObject loadPanel;
 
-    [Header("Camera")]
-    public Camera mainCam;
+    [Header( "Camera" )] public Camera mainCam;
 
-    [Header("Variables")] 
-    public static StageEditor instance;
+    [Header( "Variables" )] public static StageEditor instance;
     public GameObject selectedObject;
-    public List<StageObjectData> currentMapObjects = new List<StageObjectData>();
-    private List<Outline> currentOutlines = new List<Outline>();
+    public List<StageObjectData> currentMapObjects = new List<StageObjectData>( );
+    private List<Outline> currentOutlines = new List<Outline>( );
 
-    private void Awake()
+    private void Awake( )
     {
-        if (instance == null)
+        if( instance == null )
             instance = this;
         else
-            Destroy(this);
+            Destroy( this );
     }
 
-    void Start()
+    void Start( )
     {
-        LoadChapterObjectDatas();
-        DisplayChapterObjects();
+        LoadChapterObjectDatas( );
+        DisplayChapterObjects( );
 
-        if (mainCam == null)
+        if( mainCam == null )
             mainCam = Camera.main;
     }
 
-    void Update()
+    void Update( )
     {
-        UpdateRaycastOutline();
+        UpdateRaycastOutline( );
     }
 
-    public void LoadChapterObjectDatas()
+    public void LoadChapterObjectDatas( )
     {
-        chapterObjectDatas = new List<ChapterObjectData>();
-        ChapterObjectData[] chapters = Resources.LoadAll<ChapterObjectData>("MapData/ChapterObjectDatas");
+        chapterObjectDatas = new List<ChapterObjectData>( );
+        ChapterObjectData[] chapters = Resources.LoadAll<ChapterObjectData>( "MapData/ChapterObjectDatas" );
 
-        chapterObjectDatas.Clear();
-        chapterObjectDatas.AddRange(chapters);
+        chapterObjectDatas.Clear( );
+        chapterObjectDatas.AddRange( chapters );
     }
 
-    public void DisplayChapterObjects()
+    public void DisplayChapterObjects( )
     {
-        if (chapterObjectDatas == null || chapterObjectDatas.Count == 0)
+        if( chapterObjectDatas == null || chapterObjectDatas.Count == 0 )
         {
-            Debug.LogWarning("ChapterObjectData가 없습니다.");
+            Debug.LogWarning( "ChapterObjectData가 없습니다." );
             return;
         }
 
         ChapterObjectData chapter = chapterObjectDatas[0];
 
-        foreach (GameObject obj in chapter.objects)
-            StartCoroutine(LoadAndDisplayPreview(obj));
+        foreach( GameObject obj in chapter.objects )
+            StartCoroutine( LoadAndDisplayPreview( obj ) );
     }
 
-    IEnumerator LoadAndDisplayPreview(GameObject obj)
+    IEnumerator LoadAndDisplayPreview( GameObject obj )
     {
-        int id = obj.GetInstanceID();
+        int id = obj.GetInstanceID( );
 
-        while (AssetPreview.IsLoadingAssetPreview(id))
+        while( AssetPreview.IsLoadingAssetPreview( id ) )
             yield return null;
 
-        Texture2D preview = AssetPreview.GetAssetPreview(obj);
+        Texture2D preview = AssetPreview.GetAssetPreview( obj );
 
         int retry = 0;
-        while (preview == null && retry < 20)
+        while( preview == null && retry < 20 )
         {
-            yield return new WaitForSeconds(0.1f);
-            preview = AssetPreview.GetAssetPreview(obj);
+            yield return new WaitForSeconds( 0.1f );
+            preview = AssetPreview.GetAssetPreview( obj );
             retry++;
         }
 
-        if (preview != null)
+        if( preview != null )
         {
-            Sprite sprite = Sprite.Create(preview,
-                new Rect(0, 0, preview.width, preview.height),
-                new Vector2(0.5f, 0.5f));
+            Sprite sprite = Sprite.Create( preview,
+                new Rect( 0, 0, preview.width, preview.height ),
+                new Vector2( 0.5f, 0.5f ) );
 
-            GameObject item = Instantiate(objectScrollViewPrefab, objectScrollViewContent);
-            item.GetComponent<StageEditorObjectButton>().Init(obj);
-            Image image = item.GetComponent<Image>();
-            if (image != null)
+            GameObject item = Instantiate( objectScrollViewPrefab, objectScrollViewContent );
+            item.GetComponent<StageEditorObjectButton>( ).Init( obj );
+            Image image = item.GetComponent<Image>( );
+            if( image != null )
                 image.sprite = sprite;
         }
         else
         {
-            Debug.LogWarning($"썸네일 생성 실패: {obj.name}");
+            Debug.LogWarning( $"썸네일 생성 실패: {obj.name}" );
         }
     }
 
-    public void SelectObject(GameObject target)
+    public void SelectObject( GameObject target )
     {
-        if (selectedObject != null)
-            selectedObject.GetComponent<StageEditorObjectButton>().selected.SetActive(false);
+        if( selectedObject != null )
+            selectedObject.GetComponent<StageEditorObjectButton>( ).selected.SetActive( false );
 
         selectedObject = target;
-        selectedObject.GetComponent<StageEditorObjectButton>().selected.SetActive(true);
+        selectedObject.GetComponent<StageEditorObjectButton>( ).selected.SetActive( true );
     }
 
-    private void UpdateRaycastOutline()
+    private void UpdateRaycastOutline( )
     {
-        if (mainCam == null) return;
+        if( mainCam == null ) return;
 
         Vector3 origin = mainCam.transform.position;
         Vector3 direction = mainCam.transform.forward;
 
-        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        if( Physics.Raycast( origin, direction, out RaycastHit hit ) )
         {
             GameObject rootObj = hit.collider.transform.root.gameObject;
-            Outline[] newOutlines = rootObj.GetComponentsInChildren<Outline>(true);
+            Outline[] newOutlines = rootObj.GetComponentsInChildren<Outline>( true );
 
-            if (!IsSameOutlines(newOutlines, currentOutlines))
+            if( !IsSameOutlines( newOutlines, currentOutlines ) )
             {
-                SetOutlinesEnabled(currentOutlines, false);
-                currentOutlines = new List<Outline>(newOutlines);
-                SetOutlinesEnabled(currentOutlines, true);
+                SetOutlinesEnabled( currentOutlines, false );
+                currentOutlines = new List<Outline>( newOutlines );
+                SetOutlinesEnabled( currentOutlines, true );
             }
 
             currentObjectNameText.text = rootObj.name;
@@ -145,8 +146,8 @@ public class StageEditor : MonoBehaviour
         }
         else
         {
-            SetOutlinesEnabled(currentOutlines, false);
-            currentOutlines.Clear();
+            SetOutlinesEnabled( currentOutlines, false );
+            currentOutlines.Clear( );
 
             currentObjectNameText.text = "";
             currentObjectPosText.text = "";
@@ -155,72 +156,72 @@ public class StageEditor : MonoBehaviour
     }
 
 
-    public void PlaceObjectOnRightClick()
+    public void PlaceObjectOnRightClick( )
     {
-        if (selectedObject == null || mainCam == null)
+        if( selectedObject == null || mainCam == null )
             return;
 
         Vector3 origin = mainCam.transform.position;
         Vector3 direction = mainCam.transform.forward;
 
-        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        if( Physics.Raycast( origin, direction, out RaycastHit hit ) )
         {
             Vector3 placePos = hit.collider.transform.position + hit.normal;
-            Vector3Int gridPos = Vector3Int.RoundToInt(placePos);
+            Vector3Int gridPos = Vector3Int.RoundToInt( placePos );
 
-            GameObject instance = Instantiate(selectedObject.GetComponent<StageEditorObjectButton>(  ).targetObject);
+            GameObject instance = Instantiate( selectedObject.GetComponent<StageEditorObjectButton>( ).targetObject );
             instance.transform.position = gridPos;
             instance.transform.rotation = Quaternion.identity;
 
             StageObjectData data = new StageObjectData
             {
-                objectID = selectedObject.GetComponent<StageEditorObjectButton>(  ).targetObject.name,
+                objectID = selectedObject.GetComponent<StageEditorObjectButton>( ).targetObject.name,
                 position = gridPos,
                 rotation = Quaternion.identity
             };
 
-            currentMapObjects.Add(data);
+            currentMapObjects.Add( data );
         }
     }
-    
-    public void DeleteObjectOnLeftClick()
+
+    public void DeleteObjectOnLeftClick( )
     {
-        if (mainCam == null)
+        if( mainCam == null )
             return;
 
         Vector3 origin = mainCam.transform.position;
         Vector3 direction = mainCam.transform.forward;
 
-        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        if( Physics.Raycast( origin, direction, out RaycastHit hit ) )
         {
             GameObject targetRoot = hit.collider.transform.root.gameObject;
 
             // currentMapObjects에서 위치 일치 항목 제거
-            Vector3Int pos = Vector3Int.RoundToInt(targetRoot.transform.position);
-            currentMapObjects.RemoveAll(data => data.position == pos);
+            Vector3Int pos = Vector3Int.RoundToInt( targetRoot.transform.position );
+            currentMapObjects.RemoveAll( data => data.position == pos );
 
-            Destroy(targetRoot);
-            currentOutlines.Clear();
-            Debug.Log($"오브젝트 제거됨: {targetRoot.name}");
+            Destroy( targetRoot );
+            currentOutlines.Clear( );
+            Debug.Log( $"오브젝트 제거됨: {targetRoot.name}" );
         }
     }
-    
-    public void RotateObjectOnR()
+
+    public void RotateObjectOnR( )
     {
-        if (mainCam == null) return;
+        if( mainCam == null ) return;
 
         Vector3 origin = mainCam.transform.position;
         Vector3 direction = mainCam.transform.forward;
 
-        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        if( Physics.Raycast( origin, direction, out RaycastHit hit ) )
         {
             GameObject targetRoot = hit.collider.transform.root.gameObject;
-            targetRoot.transform.Rotate(Vector3.up, 90f);
+            targetRoot.transform.Rotate( Vector3.up, 90f );
 
-            Vector3Int pos = Vector3Int.RoundToInt(targetRoot.transform.position);
-            foreach (var obj in currentMapObjects)
+            Vector3Int pos = Vector3Int.RoundToInt( targetRoot.transform.position );
+            foreach( var obj in currentMapObjects )
             {
-                if (obj.position == pos)
+                if( obj.position == pos )
                 {
                     obj.rotation = targetRoot.transform.rotation;
                     break;
@@ -229,50 +230,111 @@ public class StageEditor : MonoBehaviour
         }
     }
 
-    private void SetOutlinesEnabled(List<Outline> outlines, bool enabled)
+    private void SetOutlinesEnabled( List<Outline> outlines, bool enabled )
     {
-        foreach (var outline in outlines)
+        foreach( var outline in outlines )
         {
-            if (outline != null)
+            if( outline != null )
                 outline.enabled = enabled;
         }
     }
 
-    private bool IsSameOutlines(Outline[] a, List<Outline> b)
+    private bool IsSameOutlines( Outline[] a, List<Outline> b )
     {
-        if (a.Length != b.Count) return false;
-        for (int i = 0; i < a.Length; i++)
-            if (a[i] != b[i])
+        if( a.Length != b.Count ) return false;
+        for( int i = 0; i < a.Length; i++ )
+            if( a[i] != b[i] )
                 return false;
         return true;
     }
-    
-    public void OnClickSaveStage()
+
+    public void OnClickSaveStage( )
     {
         saveErrorText.text = "";
 
-        if (string.IsNullOrEmpty(chapterInputField.text) ||
-            string.IsNullOrEmpty(stageNumInputField.text) ||
-            string.IsNullOrEmpty(stageNameInputField.text))
+        if( string.IsNullOrEmpty( chapterInputField.text ) ||
+            string.IsNullOrEmpty( stageNumInputField.text ) ||
+            string.IsNullOrEmpty( stageNameInputField.text ) )
         {
             saveErrorText.text = "챕터, 스테이지 번호, 이름을 모두 입력하세요.";
             return;
         }
 
-        if (!int.TryParse(chapterInputField.text, out int chapterNum))
+        if( !int.TryParse( chapterInputField.text, out int chapterNum ) )
         {
             saveErrorText.text = "챕터 번호는 숫자여야 합니다.";
             return;
         }
 
-        if (!int.TryParse(stageNumInputField.text, out int stageNum))
+        if( !int.TryParse( stageNumInputField.text, out int stageNum ) )
         {
             saveErrorText.text = "스테이지 번호는 숫자여야 합니다.";
             return;
         }
 
-        string stageName = stageNameInputField.text.Trim();
-        StageEditorFileManager.instance.CreateAndSaveStageData(chapterNum, stageNum, stageName, currentMapObjects);
+        string stageName = stageNameInputField.text.Trim( );
+        StageEditorFileManager.instance.CreateAndSaveStageData( chapterNum, stageNum, stageName, currentMapObjects );
         saveErrorText.text = $"저장 완료: Chapter {chapterNum}, Stage {stageNum}";
+    }
+
+    public void OnClickLoadData()
+    {
+        foreach (Transform child in loadedObjectSrollViewContent)
+            Destroy(child.gameObject);
+
+        Dictionary<int, StageData[]> loaded = StageEditorFileManager.instance.LoadAllStageData();
+
+        foreach (var pair in loaded)
+        {
+            int chapterNum = pair.Key;
+            StageData[] stages = pair.Value;
+
+            foreach (StageData stage in stages)
+            {
+                GameObject item = Instantiate(loadedObjectPrefab, loadedObjectSrollViewContent);
+
+                TMP_Text text = item.GetComponentInChildren<TMP_Text>();
+                if (text != null)
+                    text.text = $"{chapterNum}-{stage.stageNum}-{stage.stageName}";
+
+                Button button = item.GetComponent<Button>();
+                if (button != null)
+                {
+                    StageData capturedStage = stage;
+                    int capturedChapter = chapterNum;
+
+                    button.onClick.AddListener(() =>
+                    {
+                        loadPanel.SetActive( false );
+                        LoadStageObjects(capturedStage, capturedChapter);
+                    });
+                }
+            }
+        }
+    }
+    
+    public void LoadStageObjects(StageData stageData, int chapterNum)
+    {
+        currentMapObjects.Clear();
+
+        foreach (StageObjectData objData in stageData.ObjectDatas)
+        {
+            string path = $"MapData/MapObjects/Chapter{chapterNum}/{objData.objectID}";
+            GameObject prefab = Resources.Load<GameObject>(path);
+
+            if (prefab == null)
+                continue;
+
+            GameObject instance = Instantiate(prefab);
+            instance.transform.localPosition = objData.position;
+            instance.transform.localRotation = objData.rotation;
+
+            currentMapObjects.Add(new StageObjectData
+            {
+                objectID = objData.objectID,
+                position = objData.position,
+                rotation = objData.rotation
+            });
+        }
     }
 }
