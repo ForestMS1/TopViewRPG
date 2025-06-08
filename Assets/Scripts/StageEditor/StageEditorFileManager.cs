@@ -34,6 +34,9 @@ public class StageEditorFileManager : MonoBehaviour
 
         if (!AssetDatabase.IsValidFolder(folderPath))
             AssetDatabase.CreateFolder("Assets/Resources/StageDatas", chapterFolder);
+        
+        if (File.Exists(filePath))
+            AssetDatabase.DeleteAsset(filePath);
 
         AssetDatabase.CreateAsset(newData, filePath);
         AssetDatabase.SaveAssets();
