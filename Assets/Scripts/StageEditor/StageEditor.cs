@@ -272,32 +272,7 @@ public class StageEditor : MonoBehaviour
         }
 
         string stageName = stageNameInputField.text.Trim();
-        CreateAndSaveStageData(stageNum, stageName, chapterNum);
+        StageEditorFileManager.instance.CreateAndSaveStageData(chapterNum, stageNum, stageName, currentMapObjects);
         saveErrorText.text = $"저장 완료: Chapter {chapterNum}, Stage {stageNum}";
-    }
-
-    public void CreateAndSaveStageData(int stageNum, string stageName, int chapterNum)
-    {
-        StageData newData = ScriptableObject.CreateInstance<StageData>();
-        newData.stageNum = stageNum;
-        newData.stageName = stageName;
-        newData.ObjectDatas = currentMapObjects.ToArray();
-
-        string chapterFolder = $"Chapter{chapterNum}";
-        string folderPath = $"Assets/Resources/StageDatas/{chapterFolder}";
-        string filePath = $"{folderPath}/Stage_{stageNum}.asset";
-
-        if (!AssetDatabase.IsValidFolder("Assets/Resources"))
-            AssetDatabase.CreateFolder("Assets", "Resources");
-        if (!AssetDatabase.IsValidFolder("Assets/Resources/StageDatas"))
-            AssetDatabase.CreateFolder("Assets/Resources", "StageDatas");
-        if (!AssetDatabase.IsValidFolder(folderPath))
-            AssetDatabase.CreateFolder("Assets/Resources/StageDatas", chapterFolder);
-
-        AssetDatabase.CreateAsset(newData, filePath);
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-
-        Debug.Log($"StageData 저장 완료: {filePath}");
     }
 }
