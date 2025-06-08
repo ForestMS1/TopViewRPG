@@ -1429,7 +1429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackRange: 1.5
   attackCoolTime: 0.5
-  _playerFsm: {fileID: 0}
+  _playerFsm: {fileID: 8822864464327802131}
   invincibleTime: 1
 --- !u!114 &8822864464327802131
 MonoBehaviour:
@@ -1458,11 +1458,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actor: {fileID: 5212987717238584511}
   dashButton: {fileID: 0}
-  firstSkillButton: {fileID: 0}
-  secondSkillButton: {fileID: 0}
+  specialSkillButton: {fileID: 0}
+  ultimateSkillButton: {fileID: 0}
   dashSkillData: {fileID: 11400000, guid: 24846a409022ce8409a70a6903dd402c, type: 2}
-  firstSkillData: {fileID: 0}
-  secondSkillData: {fileID: 0}
+  specialSkillData: {fileID: 0}
+  ultimateSkillData: {fileID: 0}
 --- !u!1 &3940666507069639143
 GameObject:
   m_ObjectHideFlags: 0
