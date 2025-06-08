@@ -12,17 +12,17 @@ public class SkillManager : MonoBehaviour
     [SerializeField]
     private Button dashButton;
     [SerializeField]
-    private Button firstSkillButton;
+    private Button specialSkillButton;
     [SerializeField]
-    private Button secondSkillButton;
+    private Button ultimateSkillButton;
     
     [Header("스킬 ScriptableObject")]
     [SerializeField]
     private SkillData dashSkillData;
     [SerializeField]
-    private SkillData firstSkillData;
+    private SkillData specialSkillData;
     [SerializeField]
-    private SkillData secondSkillData;
+    private SkillData ultimateSkillData;
 
     
     private List<Skill> skills; //컴포넌트로 붙은 객체가 가진 스킬 리스트
@@ -41,7 +41,7 @@ public class SkillManager : MonoBehaviour
         skills.Add(dash);
         //TODO 버튼리스트 만들어서 효율적으로 관리하기 
         dashButton.onClick.AddListener(delegate { skills[0].Activate(actor); });
-        dashButton.image.sprite = dash.Icon;
+        //dashButton.image.sprite = dash.Icon;
     }
 
 
