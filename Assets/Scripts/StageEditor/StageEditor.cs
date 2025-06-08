@@ -8,12 +8,15 @@ using UnityEngine.InputSystem;
 
 public class StageEditor : MonoBehaviour
 {
-    [Header("Data")] public List<ChapterObjectData> chapterObjectDatas;
+    [Header("Data")]
+    public List<ChapterObjectData> chapterObjectDatas;
 
-    [Header("UI Objects")] public Transform objectScrollViewContent;
+    [Header("UI Objects")]
+    public Transform objectScrollViewContent;
     public GameObject objectScrollViewPrefab;
 
-    [Header("Camera")] public Camera mainCam;
+    [Header("Camera")]
+    public Camera mainCam;
 
     [Header("Variables")] 
     public static StageEditor instance;
@@ -41,12 +44,6 @@ public class StageEditor : MonoBehaviour
     void Update()
     {
         UpdateRaycastOutline();
-
-        // 우클릭 감지 및 오브젝트 배치
-        if (Mouse.current.rightButton.wasPressedThisFrame)
-        {
-            PlaceObjectOnRightClick();
-        }
     }
 
     public void LoadChapterObjectDatas()
@@ -142,7 +139,7 @@ public class StageEditor : MonoBehaviour
         }
     }
 
-    private void PlaceObjectOnRightClick()
+    public void PlaceObjectOnRightClick()
     {
         if (selectedObject == null || mainCam == null)
             return;
@@ -152,7 +149,6 @@ public class StageEditor : MonoBehaviour
 
         if (Physics.Raycast(origin, direction, out RaycastHit hit))
         {
-            // 배치 위치: 충돌 지점 + 법선 방향
             Vector3 placePos = hit.collider.transform.position + hit.normal;
             Vector3Int gridPos = Vector3Int.RoundToInt(placePos);
 
@@ -170,11 +166,37 @@ public class StageEditor : MonoBehaviour
             currentMapObjects.Add(data);
         }
     }
+    
+    public void DeleteObjectOnLeftClick()
+    {
+        if (mainCam == null)
+            return;
+
+        Vector3 origin = mainCam.transform.position;
+        Vector3 direction = mainCam.transform.forward;
+
+        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        {
+            GameObject targetRoot = hit.collider.transform.root.gameObject;
+
+            // currentMapObjects에서 위치 일치 항목 제거
+            Vector3Int pos = Vector3Int.RoundToInt(targetRoot.transform.position);
+            currentMapObjects.RemoveAll(data => data.position == pos);
+
+            Destroy(targetRoot);
+            currentOutlines.Clear();
+            Debug.Log($"오브젝트 제거됨: {targetRoot.name}");
+        }
+    }
+
 
     private void SetOutlinesEnabled(List<Outline> outlines, bool enabled)
     {
         foreach (var outline in outlines)
-            outline.enabled = enabled;
+        {
+            if (outline != null)
+                outline.enabled = enabled;
+        }
     }
 
     private bool IsSameOutlines(Outline[] a, List<Outline> b)

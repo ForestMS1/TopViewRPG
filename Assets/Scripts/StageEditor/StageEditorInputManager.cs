@@ -40,6 +40,17 @@ public class StageEditorInputManager : MonoBehaviour
         SetCursorLock(cursorLocked);
     }
 
+    public void OnPlaceObject( InputValue value )
+    {
+        StageEditor.instance.PlaceObjectOnRightClick(  );
+    }
+    
+    public void OnDeleteObject( InputValue value )
+    {
+        if( cursorLocked ) return;
+        StageEditor.instance.DeleteObjectOnLeftClick(  );
+    }
+
     void Update()
     {
         if (!cursorLocked) return;

@@ -2866,7 +2866,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5074268912860489390, guid: c9425383ce04d1d409143235555b2e63, type: 3}
       propertyPath: m_Name
-      value: HJD_FP_block02
+      value: Center Object
       objectReference: {fileID: 0}
     - target: {fileID: 5557648775455652884, guid: c9425383ce04d1d409143235555b2e63, type: 3}
       propertyPath: m_LocalPosition.x
