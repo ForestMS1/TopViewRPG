@@ -2,9 +2,9 @@ using System;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.InputSystem;
 
 public class StageEditor : MonoBehaviour
 {
@@ -14,6 +14,9 @@ public class StageEditor : MonoBehaviour
     [Header("UI Objects")]
     public Transform objectScrollViewContent;
     public GameObject objectScrollViewPrefab;
+    public TMP_Text currentObjectNameText;
+    public TMP_Text currentObjectPosText;
+    public TMP_Text currentObjectRotText;
 
     [Header("Camera")]
     public Camera mainCam;
@@ -125,19 +128,28 @@ public class StageEditor : MonoBehaviour
             GameObject rootObj = hit.collider.transform.root.gameObject;
             Outline[] newOutlines = rootObj.GetComponentsInChildren<Outline>(true);
 
-            if (IsSameOutlines(newOutlines, currentOutlines))
-                return;
+            if (!IsSameOutlines(newOutlines, currentOutlines))
+            {
+                SetOutlinesEnabled(currentOutlines, false);
+                currentOutlines = new List<Outline>(newOutlines);
+                SetOutlinesEnabled(currentOutlines, true);
+            }
 
-            SetOutlinesEnabled(currentOutlines, false);
-            currentOutlines = new List<Outline>(newOutlines);
-            SetOutlinesEnabled(currentOutlines, true);
+            currentObjectNameText.text = rootObj.name;
+            currentObjectPosText.text = $"Pos: {rootObj.transform.position:F2}";
+            currentObjectRotText.text = $"Rot: {rootObj.transform.eulerAngles:F1}";
         }
         else
         {
             SetOutlinesEnabled(currentOutlines, false);
             currentOutlines.Clear();
+
+            currentObjectNameText.text = "";
+            currentObjectPosText.text = "";
+            currentObjectRotText.text = "";
         }
     }
+
 
     public void PlaceObjectOnRightClick()
     {
