@@ -17,6 +17,10 @@ public class StageEditor : MonoBehaviour
     public TMP_Text currentObjectNameText;
     public TMP_Text currentObjectPosText;
     public TMP_Text currentObjectRotText;
+    public TMP_InputField chapterInputField;
+    public TMP_InputField stageNumInputField;
+    public TMP_InputField stageNameInputField;
+    public TMP_Text saveErrorText;
 
     [Header("Camera")]
     public Camera mainCam;
@@ -218,5 +222,59 @@ public class StageEditor : MonoBehaviour
             if (a[i] != b[i])
                 return false;
         return true;
+    }
+    
+    public void OnClickSaveStage()
+    {
+        saveErrorText.text = "";
+
+        if (string.IsNullOrEmpty(chapterInputField.text) ||
+            string.IsNullOrEmpty(stageNumInputField.text) ||
+            string.IsNullOrEmpty(stageNameInputField.text))
+        {
+            saveErrorText.text = "챕터, 스테이지 번호, 이름을 모두 입력하세요.";
+            return;
+        }
+
+        if (!int.TryParse(chapterInputField.text, out int chapterNum))
+        {
+            saveErrorText.text = "챕터 번호는 숫자여야 합니다.";
+            return;
+        }
+
+        if (!int.TryParse(stageNumInputField.text, out int stageNum))
+        {
+            saveErrorText.text = "스테이지 번호는 숫자여야 합니다.";
+            return;
+        }
+
+        string stageName = stageNameInputField.text.Trim();
+        CreateAndSaveStageData(stageNum, stageName, chapterNum);
+        saveErrorText.text = $"저장 완료: Chapter {chapterNum}, Stage {stageNum}";
+    }
+
+    public void CreateAndSaveStageData(int stageNum, string stageName, int chapterNum)
+    {
+        StageData newData = ScriptableObject.CreateInstance<StageData>();
+        newData.stageNum = stageNum;
+        newData.stageName = stageName;
+        newData.ObjectDatas = currentMapObjects.ToArray();
+
+        string chapterFolder = $"Chapter{chapterNum}";
+        string folderPath = $"Assets/Resources/StageDatas/{chapterFolder}";
+        string filePath = $"{folderPath}/Stage_{stageNum}.asset";
+
+        if (!AssetDatabase.IsValidFolder("Assets/Resources"))
+            AssetDatabase.CreateFolder("Assets", "Resources");
+        if (!AssetDatabase.IsValidFolder("Assets/Resources/StageDatas"))
+            AssetDatabase.CreateFolder("Assets/Resources", "StageDatas");
+        if (!AssetDatabase.IsValidFolder(folderPath))
+            AssetDatabase.CreateFolder("Assets/Resources/StageDatas", chapterFolder);
+
+        AssetDatabase.CreateAsset(newData, filePath);
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        Debug.Log($"StageData 저장 완료: {filePath}");
     }
 }
