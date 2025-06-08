@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "NewSkillData", menuName = "Skill/Skill Data")]
 public class SkillData : ScriptableObject
@@ -8,9 +9,9 @@ public class SkillData : ScriptableObject
     [TextArea]
     public string _description;
     public float _cooldown;
-    public float _currentCooldown;
     public float _mpCost;
     public Sprite _icon;
+    public Image _coolDownImage;
 
     [Header("작동 관련")] 
     public float _castTime; //시전 시간
@@ -20,10 +21,9 @@ public class SkillData : ScriptableObject
 
     public enum SkillType
     {
-        Active,
-        Passive,
-        Buff,
-        Debuff
+        Dash,
+        Special,
+        Ultimate,
     }
 
     public enum SkillTargetingType

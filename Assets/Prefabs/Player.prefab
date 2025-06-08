@@ -1286,6 +1286,7 @@ GameObject:
   - component: {fileID: 5212987717238584511}
   - component: {fileID: 8822864464327802131}
   - component: {fileID: 3676814540328701980}
+  - component: {fileID: 4014918264253319217}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1460,9 +1461,21 @@ MonoBehaviour:
   dashButton: {fileID: 0}
   specialSkillButton: {fileID: 0}
   ultimateSkillButton: {fileID: 0}
-  dashSkillData: {fileID: 11400000, guid: 24846a409022ce8409a70a6903dd402c, type: 2}
-  specialSkillData: {fileID: 0}
-  ultimateSkillData: {fileID: 0}
+  skillDataArray:
+  - {fileID: 11400000, guid: 24846a409022ce8409a70a6903dd402c, type: 2}
+--- !u!114 &4014918264253319217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822099257954947620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84671b4811d9154438f73eb31b0be789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashPower: 30
 --- !u!1 &3940666507069639143
 GameObject:
   m_ObjectHideFlags: 0

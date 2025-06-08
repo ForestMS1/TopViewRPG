@@ -21,9 +21,9 @@ public class InputManager : MonoBehaviour
         _vertical = Input.GetAxis("Vertical");
         _horizontal = Input.GetAxis("Horizontal");
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            _jumpButton.OnJumpButtonDown();
-        }
+        // if (Input.GetKey(KeyCode.Space))
+        // {
+        //     _jumpButton.OnJumpButtonDown();
+        // }
     }
 }
