@@ -51,6 +51,11 @@ public class StageEditorInputManager : MonoBehaviour
         StageEditor.instance.DeleteObjectOnLeftClick(  );
     }
 
+    public void OnRotate( InputValue value )
+    {
+        StageEditor.instance.RotateObjectOnR( );
+    }
+
     void Update()
     {
         if (!cursorLocked) return;

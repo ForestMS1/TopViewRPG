@@ -204,7 +204,30 @@ public class StageEditor : MonoBehaviour
             Debug.Log($"오브젝트 제거됨: {targetRoot.name}");
         }
     }
+    
+    public void RotateObjectOnR()
+    {
+        if (mainCam == null) return;
 
+        Vector3 origin = mainCam.transform.position;
+        Vector3 direction = mainCam.transform.forward;
+
+        if (Physics.Raycast(origin, direction, out RaycastHit hit))
+        {
+            GameObject targetRoot = hit.collider.transform.root.gameObject;
+            targetRoot.transform.Rotate(Vector3.up, 90f);
+
+            Vector3Int pos = Vector3Int.RoundToInt(targetRoot.transform.position);
+            foreach (var obj in currentMapObjects)
+            {
+                if (obj.position == pos)
+                {
+                    obj.rotation = targetRoot.transform.rotation;
+                    break;
+                }
+            }
+        }
+    }
 
     private void SetOutlinesEnabled(List<Outline> outlines, bool enabled)
     {
