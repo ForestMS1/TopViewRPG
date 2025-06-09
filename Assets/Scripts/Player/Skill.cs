@@ -70,23 +70,24 @@ public class Skill : MonoBehaviour
     
     private void StartCooldown()
     {
-        if (IsCoolDown) return;
-        
-        StartCoroutine(nameof(OnCoolDownTime));
+        if (IsCoolDown)
+            return;
+
+        IsCoolDown = true;
+        CurrentCool = MaxCoolDown;
+
+        IngameUIManager.instance.TriggerCooldownUI(Type, MaxCoolDown);
+        StartCoroutine(OnCoolDownTime());
     }
 
     IEnumerator OnCoolDownTime()
     {
-        CurrentCool = MaxCoolDown;
-        IsCoolDown = true;
         while (CurrentCool > 0)
         {
             CurrentCool -= Time.deltaTime;
-            //Image UI의 fillAmount를 조절해 채워지는 이미지 모양 설정
-            //CoolDownImage.fillAmount = CurrentCool / MaxCoolDown;
-
             yield return null;
         }
+
         IsCoolDown = false;
     }
 }
