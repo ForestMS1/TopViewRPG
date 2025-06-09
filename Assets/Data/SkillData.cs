@@ -11,7 +11,6 @@ public class SkillData : ScriptableObject
     public float _cooldown;
     public float _mpCost;
     public Sprite _icon;
-    public Image _coolDownImage;
 
     [Header("작동 관련")] 
     public float _castTime; //시전 시간

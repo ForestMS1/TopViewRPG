@@ -13,7 +13,6 @@ public class Skill : MonoBehaviour
     private float mpCost;
     private bool isCoolDown;
     private Sprite icon;
-    private Image coolDownImage;
     protected SkillData data;
     
     public string Name { get => name; set => name = value; }
@@ -23,7 +22,6 @@ public class Skill : MonoBehaviour
     public float MpCost { get => mpCost; set => mpCost = value; }
     public bool IsCoolDown { get => isCoolDown; set => isCoolDown = value; }
     public Sprite Icon { get => icon; set => icon = value; }
-    public Image CoolDownImage { get => coolDownImage; set => coolDownImage = value; }
 
     [Header("작동 관련")] 
     private float castTime; //시전 시간
@@ -46,7 +44,6 @@ public class Skill : MonoBehaviour
         CurrentCool = 0f;
         MpCost = skillData._mpCost;
         Icon = skillData._icon;
-        coolDownImage = skillData._coolDownImage;
 
         IsCoolDown = false;
         
