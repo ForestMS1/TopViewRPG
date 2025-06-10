@@ -12,6 +12,6 @@ public class StageData : ScriptableObject
 public class StageObjectData
 {
     public string objectID;
-    public Vector3Int position;
+    public Vector3 position;
     public Quaternion rotation;
 }

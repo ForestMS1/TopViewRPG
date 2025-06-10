@@ -24,7 +24,11 @@ public class StageEditor : MonoBehaviour
     public GameObject loadedObjectPrefab;
     public Transform loadedObjectSrollViewContent;
     public GameObject loadPanel;
-
+    public TMP_InputField xEditInputField;
+    public TMP_InputField yEditInputField;
+    public TMP_InputField zEditInputField;
+    public GameObject editPanel;
+    
     [Header( "Camera" )] public Camera mainCam;
 
     [Header( "Variables" )] public static StageEditor instance;
@@ -184,6 +188,25 @@ public class StageEditor : MonoBehaviour
         }
     }
 
+    public void PlaceObjectOnEdit( )
+    {
+        if( selectedObject == null || mainCam == null )
+            return;
+
+        Vector3 gridPos = new Vector3( float.Parse( xEditInputField.text ), float.Parse( yEditInputField.text ),
+            float.Parse( zEditInputField.text ) );
+        GameObject instance = Instantiate( selectedObject.GetComponent<StageEditorObjectButton>( ).targetObject );
+        instance.transform.position = gridPos;
+        instance.transform.rotation = Quaternion.identity;
+        StageObjectData data = new StageObjectData
+        {
+            objectID = selectedObject.GetComponent<StageEditorObjectButton>( ).targetObject.name,
+            position = gridPos,
+            rotation = Quaternion.identity
+        };
+        currentMapObjects.Add( data );
+    }
+
     public void DeleteObjectOnLeftClick( )
     {
         if( mainCam == null )
@@ -197,7 +220,7 @@ public class StageEditor : MonoBehaviour
             GameObject targetRoot = hit.collider.transform.root.gameObject;
 
             // currentMapObjects에서 위치 일치 항목 제거
-            Vector3Int pos = Vector3Int.RoundToInt( targetRoot.transform.position );
+            Vector3 pos = targetRoot.transform.position;
             currentMapObjects.RemoveAll( data => data.position == pos );
 
             Destroy( targetRoot );
@@ -218,7 +241,7 @@ public class StageEditor : MonoBehaviour
             GameObject targetRoot = hit.collider.transform.root.gameObject;
             targetRoot.transform.Rotate( Vector3.up, 90f );
 
-            Vector3Int pos = Vector3Int.RoundToInt( targetRoot.transform.position );
+            Vector3 pos = targetRoot.transform.position;
             foreach( var obj in currentMapObjects )
             {
                 if( obj.position == pos )

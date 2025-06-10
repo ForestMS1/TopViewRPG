@@ -56,6 +56,23 @@ public class StageEditorInputManager : MonoBehaviour
         StageEditor.instance.RotateObjectOnR( );
     }
 
+    public void OnCamUp( InputValue value )
+    {
+        if (!cursorLocked || cam == null) return;
+        cam.position += Vector3.up * camMoveSpeed * Time.deltaTime;
+    }
+
+    public void OnCamDown( InputValue value )
+    {
+        if (!cursorLocked || cam == null) return;
+        cam.position -= Vector3.up * camMoveSpeed * Time.deltaTime;
+    }
+
+    public void OnPlaceObjectEdit( InputValue value )
+    {
+        StageEditor.instance.editPanel.SetActive( true );
+    }
+
     void Update()
     {
         if (!cursorLocked) return;
