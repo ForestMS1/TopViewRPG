@@ -26,9 +26,15 @@ public class Player : Creature
         lastDamagedTime = Time.time;
     }
 
+    void Start()
+    {
+        IngameUIManager.instance.SetPlayerHPBar(HP, MaxHP);
+    }
+
     public override void OnDamage(float damage)
     {
         if (lastDamagedTime + invincibleTime > Time.time) return; //피격 후 무적시간동안 무적
+        IngameUIManager.instance.SetPlayerHPBar(HP - damage, MaxHP);
         base.OnDamage(damage);
         lastDamagedTime = Time.time;
         //_playerAnimator.SetAnimatorTrigger("GetHit");

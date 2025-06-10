@@ -10,6 +10,9 @@ public class IngameUIManager : MonoBehaviour
     public Image specialCooldownImage;
     public Image ultimateCooldownImage;
 
+    public Slider playerHPBarSlider;
+    public TMP_Text playerHPBarText;
+
     public static IngameUIManager instance;
 
     void Awake( )
@@ -18,6 +21,14 @@ public class IngameUIManager : MonoBehaviour
             instance = this;
         else
             Destroy( this );
+    }
+
+    public void SetPlayerHPBar(float value, float maxValue)
+    {
+        float normalized = Mathf.Clamp01(value / maxValue);
+        playerHPBarText.text = Mathf.FloorToInt(value).ToString();
+        playerHPBarSlider.DOKill(); 
+        playerHPBarSlider.DOValue(normalized, 0.3f).SetEase(Ease.OutQuad);
     }
     
     public void TriggerCooldownUI(SkillData.SkillType type, float cooldownTime)
