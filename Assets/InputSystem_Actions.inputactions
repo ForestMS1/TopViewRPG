@@ -123,24 +123,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "CamUp",
-                    "type": "Button",
-                    "id": "fbf03527-c56a-42af-99f7-8ff3219e0316",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "CamDown",
-                    "type": "Button",
-                    "id": "06f611c5-7359-4534-8ac4-bb40c1b6909b",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "PlaceObjectEdit",
                     "type": "Button",
                     "id": "81bea66d-66cf-4363-bf99-30bd2e25d673",
@@ -148,6 +130,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "CamY",
+                    "type": "Value",
+                    "id": "2a1b9acb-69e0-459b-a3a3-090698b1fd1e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -582,28 +573,6 @@
                 },
                 {
                     "name": "",
-                    "id": "6f5b1620-e6dc-4289-8323-6d546b12ec2e",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "CamUp",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e5aafef4-92b3-47cd-b1ea-935489604f2c",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "CamDown",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "b5edfb94-bd14-412a-9b59-2c7b155eb3a9",
                     "path": "<Keyboard>/t",
                     "interactions": "",
@@ -612,6 +581,39 @@
                     "action": "PlaceObjectEdit",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "226b7d5f-21de-4cbc-98f6-0f42b801dc95",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CamY",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "75316d28-80bd-4f88-af28-1767633a642e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CamY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "c7541992-a82a-422b-86f4-feca39fb1d11",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CamY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },

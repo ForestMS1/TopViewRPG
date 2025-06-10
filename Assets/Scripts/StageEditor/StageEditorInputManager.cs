@@ -9,6 +9,7 @@ public class StageEditorInputManager : MonoBehaviour
 
     private Vector2 moveInput;
     private Vector2 lookInput;
+    private float yInput;
     public Transform cam;
     public TMP_Text cursorModeText;
 
@@ -56,16 +57,10 @@ public class StageEditorInputManager : MonoBehaviour
         StageEditor.instance.RotateObjectOnR( );
     }
 
-    public void OnCamUp( InputValue value )
+    public void OnCamY( InputValue value )
     {
-        if (!cursorLocked || cam == null) return;
-        cam.position += Vector3.up * camMoveSpeed * Time.deltaTime;
-    }
-
-    public void OnCamDown( InputValue value )
-    {
-        if (!cursorLocked || cam == null) return;
-        cam.position -= Vector3.up * camMoveSpeed * Time.deltaTime;
+        yInput = value.Get<float>( );
+        Debug.Log( yInput );
     }
 
     public void OnPlaceObjectEdit( InputValue value )
@@ -79,13 +74,14 @@ public class StageEditorInputManager : MonoBehaviour
 
         RotateCam();
         MoveCam();
+        
     }
 
     private void MoveCam()
     {
-        if (cam == null || moveInput == Vector2.zero) return;
+        if (cam == null) return;
 
-        Vector3 move = cam.right * moveInput.x + cam.forward * moveInput.y;
+        Vector3 move = cam.right * moveInput.x + cam.forward * moveInput.y + Vector3.up * yInput;
         cam.position += move * camMoveSpeed * Time.deltaTime;
     }
 
