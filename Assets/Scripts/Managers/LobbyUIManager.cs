@@ -16,10 +16,21 @@ public enum UIPageType
 public class LobbyUIManager : MonoBehaviour
 {
     public Transform pageTop;
-
     public GameObject[] pageObjects;
     public Dictionary<UIPageType, GameObject> pages = new();
     public UIPageType currentPage;
+
+    private Stack<UIPageType> pageHistory = new();
+
+    public static LobbyUIManager instance;
+
+    void Awake()
+    {
+        if(instance == null)
+            instance = this;
+        else
+            Destroy(this);
+    }
 
     void Start()
     {
@@ -33,15 +44,30 @@ public class LobbyUIManager : MonoBehaviour
         for(int i = 0; i < pageObjects.Length; i++)
             pages[(UIPageType)i] = pageObjects[i];
 
-        OpenPage(UIPageType.Home);
+        OpenPage(UIPageType.Home, false);
     }
 
-    public void OpenPage(UIPageType type)
+    public void OpenPage(UIPageType type, bool addToHistory = true)
     {
-        if (currentPage != null)
-            pages[currentPage].SetActive(false);
+        if (currentPage != type)
+        {
+            if (addToHistory)
+                pageHistory.Push(currentPage);
 
-        pages[type].SetActive(true);
-        currentPage = type;
+            if (pages.ContainsKey(currentPage))
+                pages[currentPage].SetActive(false);
+
+            pages[type].SetActive(true);
+            currentPage = type;
+        }
+    }
+
+    public void GoBack()
+    {
+        if (pageHistory.Count > 0)
+        {
+            UIPageType previousPage = pageHistory.Pop();
+            OpenPage(previousPage, false);
+        }
     }
 }
