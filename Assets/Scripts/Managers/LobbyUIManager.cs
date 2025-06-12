@@ -69,5 +69,20 @@ public class LobbyUIManager : MonoBehaviour
             UIPageType previousPage = pageHistory.Pop();
             OpenPage(previousPage, false);
         }
+        else
+            GoHome();
+    }
+
+    public void GoHome()
+    {
+        if (currentPage != UIPageType.Home)
+        {
+            if (pages.ContainsKey(currentPage))
+                pages[currentPage].SetActive(false);
+
+            pages[UIPageType.Home].SetActive(true);
+            currentPage = UIPageType.Home;
+        }
+        pageHistory.Clear();
     }
 }
