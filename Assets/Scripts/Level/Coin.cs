@@ -27,7 +27,10 @@ public class Coin : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
             if (Vector3.Distance(transform.position, player.position) < 0.1f)
+            {
+                GameManager.instance.AddCoin();
                 Destroy(gameObject);
+            }
         }
     }
 

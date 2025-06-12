@@ -13,6 +13,8 @@ public class IngameUIManager : MonoBehaviour
     public Slider playerHPBarSlider;
     public TMP_Text playerHPBarText;
 
+    public TMP_Text coinText;
+
     public static IngameUIManager instance;
 
     void Awake( )
@@ -21,6 +23,22 @@ public class IngameUIManager : MonoBehaviour
             instance = this;
         else
             Destroy( this );
+    }
+
+    public void SetCoinText(int value)
+    {
+        coinText.text = value.ToString();
+        coinText.rectTransform.DOKill();
+        coinText.rectTransform.localScale = Vector3.one;
+        coinText.rectTransform
+                .DOScale(Vector3.one * 1.2f, 0.1f)
+                .SetEase(Ease.OutQuad)
+                .OnComplete(() =>
+                {
+                    coinText.rectTransform
+                            .DOScale(Vector3.one, 0.3f)
+                            .SetEase(Ease.InQuad);
+                });
     }
 
     public void SetPlayerHPBar(float value, float maxValue)
