@@ -8,7 +8,7 @@ public class DashSkill : Skill
     [SerializeField]
     private float dashPower = 20f;
     [SerializeField]
-    private float dashDuration = 0.03f;
+    private float dashDuration = 0.1f;
     private float startTime;
     private Rigidbody rb;
 
