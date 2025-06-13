@@ -27,8 +27,6 @@ public class DashSkill : Skill
             return;
         }
         base.Activate(actor);
-        // Vector3 forceToapply = rb.transform.forward * dashPower;
-        // rb.AddForce(actor.transform.forward * dashPower, ForceMode.Impulse);
         StartCoroutine(nameof(Dash));
         
         Debug.Log($"{actor.name} : Dash activated!");
