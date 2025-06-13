@@ -2509,7 +2509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885a1ff9f735e1b4a997a5ba62dfb878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectedCoin: 0
 --- !u!4 &1835595402
 Transform:
   m_ObjectHideFlags: 0
@@ -3160,6 +3159,10 @@ PrefabInstance:
     - target: {fileID: 3822099257954947620, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014918264253319217, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+      propertyPath: dashDuration
+      value: 0.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

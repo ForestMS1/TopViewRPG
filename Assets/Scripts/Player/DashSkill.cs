@@ -6,7 +6,10 @@ public class DashSkill : Skill
 {
     //플레이어의 대쉬 스킬
     [SerializeField]
-    private float dashPower = 30f;
+    private float dashPower = 20f;
+    [SerializeField]
+    private float dashDuration = 0.03f;
+    private float startTime;
     private Rigidbody rb;
 
     void Awake()
@@ -24,11 +27,24 @@ public class DashSkill : Skill
             return;
         }
         base.Activate(actor);
-        rb.AddForce(actor.transform.forward * dashPower, ForceMode.Impulse);
+        // Vector3 forceToapply = rb.transform.forward * dashPower;
+        // rb.AddForce(actor.transform.forward * dashPower, ForceMode.Impulse);
+        StartCoroutine(nameof(Dash));
         
         Debug.Log($"{actor.name} : Dash activated!");
     }
-    
+
+    IEnumerator Dash()
+    {
+        startTime = Time.time;
+
+        while (Time.time < startTime + dashDuration)
+        {
+            rb.MovePosition(rb.position + rb.transform.forward * dashPower * Time.deltaTime);
+
+            yield return null;
+        }
+    }
 
 
 }
