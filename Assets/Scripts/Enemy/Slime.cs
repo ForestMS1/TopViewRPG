@@ -6,8 +6,6 @@ public class Slime : Enemy
     [SerializeField] 
     private SlimeData slimeData;
     
-    private Animator animator;
-    
     void Awake()
     {
         Init();

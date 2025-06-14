@@ -1283,11 +1283,11 @@ GameObject:
   - component: {fileID: 8905241209679918224}
   - component: {fileID: 1595453563184289392}
   - component: {fileID: 6965710561011557623}
-  - component: {fileID: 5212987717238584511}
   - component: {fileID: 8822864464327802131}
   - component: {fileID: 3676814540328701980}
   - component: {fileID: 4014918264253319217}
   - component: {fileID: 5787672346277703335}
+  - component: {fileID: 1957619722280016147}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1417,22 +1417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0d3272db132448c911528d539a3ec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5212987717238584511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3822099257954947620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3f863242585b4fe8ae6c99aa5fdb59d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRange: 1.5
-  attackCoolTime: 0.5
-  _playerFsm: {fileID: 8822864464327802131}
-  invincibleTime: 1
 --- !u!114 &8822864464327802131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1445,7 +1429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c04dca793734f6ea22b94618e63e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 5212987717238584511}
+  player: {fileID: 1957619722280016147}
 --- !u!114 &3676814540328701980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1458,7 +1442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d51dcb8f2c59a44a1980eef8c9c75c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actor: {fileID: 5212987717238584511}
+  actor: {fileID: 1957619722280016147}
   dashButton: {fileID: 0}
   specialSkillButton: {fileID: 0}
   ultimateSkillButton: {fileID: 0}
@@ -1490,6 +1474,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5741e225af06d4e2ca5f0db19e4166c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1957619722280016147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822099257954947620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d09f09ec3ff3e4785e0bf3895c5ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRange: 1.5
+  attackCoolTime: 0.5
+  _playerFsm: {fileID: 8822864464327802131}
+  invincibleTime: 1
+  nextComboTime: 1
 --- !u!1 &3940666507069639143
 GameObject:
   m_ObjectHideFlags: 0

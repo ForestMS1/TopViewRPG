@@ -26,10 +26,12 @@ public class Creature : MonoBehaviour, IDamageable
     public float DEF { get => defence; set => defence = value; }
     public float EXP { get => exp; set => exp = value; }
     public bool IsDead { get => isDead; set => isDead = value; }
-
+    
+    protected Animator animator;
     void Awake()
     {
         lastAttackTime = Time.time;
+        animator = GetComponent<Animator>();
     }
 
     public virtual void OnDamage(float damage)
@@ -51,7 +53,6 @@ public class Creature : MonoBehaviour, IDamageable
     {
         if (!CanAttack()) return;
         Collider[] hits = Physics.OverlapSphere(transform.position + transform.forward, attackRange);
-        Animator animator = gameObject.GetComponent<Animator>();
         animator.SetTrigger("Attack");
         if (hits.Length > 0)
         {

@@ -13,6 +13,16 @@ public class Player : Creature
     private float lastDamagedTime;
     void Awake()
     {
+        InitAwake();
+    }
+
+    void Start()
+    {
+        InitStart();
+    }
+
+    public virtual void InitAwake()
+    {
         MaxHP = 100f;
         HP = MaxHP;
         MaxMP = 100f;
@@ -26,7 +36,7 @@ public class Player : Creature
         lastDamagedTime = Time.time;
     }
 
-    void Start()
+    public virtual void InitStart()
     {
         IngameUIManager.instance.SetPlayerHPBar(HP, MaxHP);
     }
