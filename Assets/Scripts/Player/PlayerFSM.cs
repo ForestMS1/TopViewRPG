@@ -39,7 +39,7 @@ public class PlayerFSM : MonoBehaviour
         {
             case PlayerState.Attack:
                 if (!player.CanAttack()) break;
-                animator.SetAnimatorTrigger("Attack");
+                //animator.SetAnimatorTrigger("Attack");
                 player.DoAttackHit<Enemy>();
                 break;
             case PlayerState.Jump:
