@@ -11,7 +11,7 @@ public class DashSkill : Skill
     private float dashDuration = 0.1f;
     private float startTime;
     private Rigidbody rb;
-
+    public SkillData.SkillType Type => SkillData.SkillType.Dash;
     void Awake()
     {
         rb = GetComponent<Rigidbody>();

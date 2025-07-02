@@ -11,6 +11,7 @@ public class Creature : MonoBehaviour, IDamageable
     private float defence;
     private float exp;
     private bool isDead;
+    private bool isInvincible;
     
     [SerializeField]
     protected float attackRange = 1.5f;
@@ -86,5 +87,14 @@ public class Creature : MonoBehaviour, IDamageable
     {
         IsDead = true;
         Debug.Log($"{gameObject.name} is dead!");
+    }
+    
+    public void SetInvincible(bool value)
+    {
+        isInvincible = value;
+    }
+    public bool IsInvincible()
+    {
+        return isInvincible;
     }
 }

@@ -6,7 +6,8 @@ public class InputManager : MonoBehaviour
     private float _horizontal;
     [SerializeField]
     private JumpButton _jumpButton;
-    
+    [SerializeField]
+    private PlayerFSM _playerFSM;
     public float Vertical{ get => _vertical; }
     public float Horizontal{ get => _horizontal; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -18,6 +19,7 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!_playerFSM.IsControllable()) return;
         _vertical = Input.GetAxis("Vertical");
         _horizontal = Input.GetAxis("Horizontal");
 

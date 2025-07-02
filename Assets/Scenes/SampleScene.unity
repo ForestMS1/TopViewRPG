@@ -785,6 +785,11 @@ MonoBehaviour:
       Wait: 1
       Time: 2
     Restrictions: 0
+--- !u!1 &216302386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3822099257954947620, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+  m_PrefabInstance: {fileID: 985871897600631873}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &261012902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3216,6 +3221,18 @@ PrefabInstance:
       propertyPath: ultimateSkillButton
       value: 
       objectReference: {fileID: 2078568458}
+    - target: {fileID: 3676814540328701980, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+      propertyPath: skillDataArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3676814540328701980, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+      propertyPath: 'skillDataArray.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 99f45eb44c43046a687b48fa4e9ff92c, type: 2}
+    - target: {fileID: 3676814540328701980, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+      propertyPath: 'skillDataArray.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 2ea49e8a3b99f448fa0523b9321a8548, type: 2}
     - target: {fileID: 3822099257954947620, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3226,7 +3243,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3408513617122194455, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 18062533}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3822099257954947620, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2174777786710195798}
+    - targetCorrespondingSourceObject: {fileID: 3822099257954947620, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2174777786710195808}
   m_SourcePrefab: {fileID: 100100000, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
 --- !u!1001 &1124845016784394665
 PrefabInstance:
@@ -3280,6 +3303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4204676236044219060, guid: 314a46ee6b0567f46aad4efc795ffd98, type: 3}
+      propertyPath: _playerFSM
+      value: 
+      objectReference: {fileID: 2174777786710195796}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3295,10 +3322,41 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8822864464327802131, guid: 0e802217d3b10144c85b9426a9a40ce7, type: 3}
   m_PrefabInstance: {fileID: 985871897600631873}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 216302386}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8c04dca793734f6ea22b94618e63e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2174777786710195798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216302386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e962345be7bf94dcf92cf47096ebc87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashDistance: 2
+  dashDuration: 0.1
+  invincibleTime: 0.5
+  attackRange: 2.5
+  attackAngle: 60
+  damage: 30
+  playerFSM: {fileID: 2174777786710195796}
+--- !u!114 &2174777786710195808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216302386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6b0d824d3fd4e52bfb26d7d74e9541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &4708641832425287195

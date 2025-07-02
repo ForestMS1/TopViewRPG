@@ -10,6 +10,13 @@ public class SkillManager : MonoBehaviour
     [SerializeField]
     private Creature actor;
     
+    [Header("스킬 컴포넌트")]
+    [SerializeField]
+    private DashSkill dashSkill;
+    [SerializeField]
+    private SpecialSkill specialSkill;
+    [SerializeField]
+    private UltimateSkill ultimateSkill;
     [Header("스킬 버튼")]
     [SerializeField]
     private Button dashButton;
@@ -21,49 +28,28 @@ public class SkillManager : MonoBehaviour
     [Header("스킬 ScriptableObject")]
     [SerializeField] 
     private SkillData[] skillDataArray;
-
-    private Dictionary<SkillData.SkillType, Button> skillButtons;
-    private Dictionary<SkillData.SkillType, SkillData> skillDataMap;
-    private Dictionary<SkillData.SkillType, Skill> skills;
+    
 
     void Awake()
     {
         actor = GetComponent<Creature>();
         
-        // SkillType별 버튼 등록
-        skillButtons = new Dictionary<SkillData.SkillType, Button>
+        dashSkill = GetComponent<DashSkill>();
+        specialSkill = GetComponent<SpecialSkill>();
+        ultimateSkill = GetComponent<UltimateSkill>();
+        Skill[] skillList = { dashSkill, specialSkill, ultimateSkill };
+
+        for (int i = 0; i < skillList.Length; i++)
         {
-            { SkillData.SkillType.Dash, dashButton },
-            { SkillData.SkillType.Special, specialSkillButton },
-            { SkillData.SkillType.Ultimate, ultimateSkillButton }
-        };
-        
-        // SkillData 매핑
-        skillDataMap = skillDataArray.ToDictionary(data => data._type, data => data);
-        
-        // Skill 컴포넌트 매핑
-        skills = new Dictionary<SkillData.SkillType, Skill>();
-        foreach (var skill in GetComponents<Skill>())
-        {
-            if (skillDataMap.ContainsKey(skill.Type))
-            {
-                skills[skill.Type] = skill;
-                skill.Init(skillDataMap[skill.Type]);
-            }
+            skillList[i].Init(skillDataArray[i]);
         }
+        
     }
     void Start()
     {
-        foreach (var pair in skillButtons)
-        {
-            SkillData.SkillType type = pair.Key;
-            Button btn = pair.Value;
-
-            if (skills.ContainsKey(type))
-            {
-                btn.onClick.AddListener(() => skills[type].Activate(actor));
-            }
-        }
+        dashButton.onClick.AddListener(() => dashSkill.Activate(actor));
+        specialSkillButton.onClick.AddListener(() => specialSkill.Activate(actor));
+        ultimateSkillButton.onClick.AddListener(() => ultimateSkill.Activate(actor));
     }
 
 

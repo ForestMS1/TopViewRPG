@@ -9,6 +9,8 @@ public class PlayerFSM : MonoBehaviour
         Walk,
         Jump,
         Attack,
+        SpecialSkill,
+        UltimateSkill,
         Damaged,
         Dead
     }
@@ -41,24 +43,37 @@ public class PlayerFSM : MonoBehaviour
                 if (!player.CanAttack()) break;
                 //animator.SetAnimatorTrigger("Attack");
                 player.DoAttackHit<Enemy>();
+                currentState = newState;
+                break;
+            case PlayerState.SpecialSkill:
+                animator.SetAnimatorTrigger("Special");
+                currentState = newState;
+                break;
+            case PlayerState.UltimateSkill:
+                animator.SetAnimatorTrigger("Ultimate");
+                currentState = newState;
                 break;
             case PlayerState.Jump:
                 animator.SetAnimatorTrigger("Jump");
                 playerController.Jump();
+                currentState = newState;
                 break;
             case PlayerState.Damaged:
                 animator.SetAnimatorTrigger("GetHit");
+                currentState = newState;
                 break;
             case PlayerState.Dead:
                 animator.SetAnimatorTrigger("Die");
+                currentState = newState;
                 break;
         }
-        currentState = newState;
+        currentState = PlayerState.Idle;
     }
 
     public bool IsControllable()
     {
-        if (currentState == PlayerState.Damaged || currentState == PlayerState.Dead)
+        if (currentState == PlayerState.Attack || currentState == PlayerState.SpecialSkill || currentState == PlayerState.UltimateSkill
+            || currentState == PlayerState.Damaged || currentState == PlayerState.Dead)
         {
             return false;
         }
