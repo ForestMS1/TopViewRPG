@@ -21,6 +21,7 @@ public class SpecialSkill : Skill
         CurrentCool = MaxCoolDown;
         
         Debug.Log("SpecialSkill Activate!");
+        base.Activate(actor); //쿨타임 시작
         
         if (skillCoroutine != null)
             StopCoroutine(skillCoroutine);

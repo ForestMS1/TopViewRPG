@@ -3359,6 +3359,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6b0d824d3fd4e52bfb26d7d74e9541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radius: 5
+  damage: 50
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  effectPrefab: {fileID: 0}
+  playerFSM: {fileID: 2174777786710195796}
 --- !u!1001 &4708641832425287195
 PrefabInstance:
   m_ObjectHideFlags: 0

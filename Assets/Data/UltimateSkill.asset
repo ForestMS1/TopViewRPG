@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _description: 
-  _cooldown: 0
+  _cooldown: 10
   _mpCost: 0
   _icon: {fileID: 0}
   _castTime: 0
